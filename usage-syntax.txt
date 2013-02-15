@@ -11,7 +11,7 @@
 * single quotes
   - inline in text
   - denotes variables
-  - as you would normally use quotes
+  - also used as you would normally use quotes
   example: these so-called 'frobs' also affected by the 'frobfilter' variable
 
 * parameters
@@ -19,7 +19,7 @@
   - written as [<parametername>] if optional
   - try to find a good name
     - otherwise use <value> as a generic name
-  - don't add quotes around parameters
+  - don't add quotes around them
 
 * overview description
   - brief description of command
@@ -36,7 +36,6 @@
 
 * bullet-list
   - used if you need to extend long description beyond a newline
-  - do it in a bullet-list style
   - end each item with newline
 
 * available-list
@@ -44,11 +43,11 @@
   - lists available options
   - not necessarily directly related to the parameter (unlike the parameter value list)
   - enclosed by parenthesis
-    - use curly brackets for nested lists is need be
+    - use curly brackets for nested lists if need be
   - starts with (available:
 
 * parameter description list
-  - starts with "<parametername> - "
+  - starts with <parametername> - 
   - mention if optional
   - end each item with newline
   * parameter value lists
@@ -58,7 +57,7 @@
     - no newline except at end
 
 * examples
-  - starts with "example: "
+  - starts with example: 
   - if an explanation follows the command, the command ends with a colon
 
 EXAMPLE:
