@@ -7,9 +7,7 @@ for i in */LC_MESSAGES/
 do
 	LC="$(echo "$i" | sed 's%\([^/]*\).*%\1%')"
 	msgfmt -c -v -o "$LC"/LC_MESSAGES/redeclipse.mo "$LC"/LC_MESSAGES/redeclipse.po || exit 1
-	install -d ../../data/locale
-	install -d ../../data/locale/"$LC"
-	install -d ../../data/locale/"$LC"/LC_MESSAGES
+	mkdir -p ../../data/locale/"$LC"/LC_MESSAGES
 	install $LC/LC_MESSAGES/redeclipse.mo ../../data/locale/$LC/LC_MESSAGES/redeclipse.mo
 done
 cd "$OLDPWD"

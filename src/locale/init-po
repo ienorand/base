@@ -6,8 +6,7 @@ cd "$DIR" || exit 1
 for i in $@
 do
 	LC="$(echo "$i" | sed 's%\([a-z]*\).*%\1%')"
-	install -d "$LC" || exit 1
-	install -d "$LC"/LC_MESSAGES || exit 1
+	mkdir -p "$LC"/LC_MESSAGES || exit 1
 	msginit -l "$i" -o "$LC"/LC_MESSAGES/redeclipse.po -i redeclipse.pot
 done
 
