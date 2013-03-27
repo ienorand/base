@@ -1,5 +1,5 @@
 * whole description may not be longer than 512 characters
-* no periods are used, and no capital letters for sentances
+* no periods are used, and no capital letters for sentences
 * no punctuation around newlines
 
 * double quotes
@@ -19,7 +19,6 @@
   - written as [<parametername>] if optional
   - try to find a good name
     - otherwise use <value> as a generic name
-  - don't add quotes around them
 
 * overview description
   - brief description of command
@@ -39,9 +38,9 @@
   - end each item with newline
 
 * available-list
-  - can be used in long description or bullet-list
+  - can be used in long description or bullet-list or parameter description list
   - lists available options
-  - not necessarily directly related to the parameter (unlike the parameter value list)
+  - not necessarily directly related to the parameter (unless it's in the parameter description list)
   - enclosed by parenthesis
     - use curly brackets for nested lists if need be
   - starts with (available:
@@ -58,18 +57,24 @@
 
 * examples
   - starts with example: 
-  - if an explanation follows the command, the command ends with a colon
+  - if an explanation follows the command, the command ends with a semicolon
 
 EXAMPLE:
-this is the overview description                                    <-- overview description
-	this is a longer description of the command                 <-- long description
-	if you are in the menus, the command behaves one way        <-- bullet-list
-	if you are in the game, the command behaves this way        <-'
-	you can use frob vars as input (available: frob1, frob2)    <-'
-	<parameter> - does something {1 = effect 1, 2 = effect 2}   <-- parameter description list and parameter value list
-	[<parameter>] - optionally does something                   <-'
-	example: commandname 1 foo: makes something happen          <-- example list
-	example: commandname 2 bar                                  <-'
+
+this is the overview description					<-- overview description
+
+	this is a longer description of the command that describes what	<-- long description
+	it does in more detail						<-'
+
+	if you are in the menus, the command behaves one way		<-- bullet-list
+	if you are in the game, the command behaves this way		<-'
+	you can use frob vars as input (available: frob1, frob2)	<-'
+
+	<parameter> - does something {1 = effect 1, 2 = effect 2}	<-- parameter description list and parameter value list
+	[<parameter>] - optionally does something			<-'
+
+	example: commandname 1 foo; makes something happen		<-- example list
+	example: commandname 2 bar					<-'
 
 
 
