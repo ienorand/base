@@ -1,1 +1,2 @@
 config/menus/editing.cfg
+config/menus/main.cfg
