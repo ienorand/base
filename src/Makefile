@@ -66,7 +66,7 @@ override WINDRES+= -F pe-i386
 endif
 STD_LIBS= -static-libgcc -static-libstdc++
 CLIENT_INCLUDES= $(INCLUDES) -Iinclude
-CLIENT_LIBS= -mwindows $(STD_LIBS) -L$(WINBIN) -L$(WINLIB) -lSDL -lSDL_image -lSDL_mixer -lzlib1 -lopengl32 -lenet -lws2_32 -lwinmm
+CLIENT_LIBS= -mwindows $(STD_LIBS) -L$(WINBIN) -L$(WINLIB) -lSDL -lSDL_image -lSDL_mixer -lzlib1 -lopengl32 -lenet -lws2_32 -lwinmm -llibintl
 else
 CLIENT_INCLUDES= $(INCLUDES) -I/usr/X11R6/include `sdl-config --cflags`
 CLIENT_LIBS= -Lenet -lenet -L/usr/X11R6/lib -lX11 `sdl-config --libs` -lSDL_image -lSDL_mixer -lz -lGL
@@ -81,6 +81,7 @@ endif
 CLIENT_OBJS= \
 	shared/crypto.o \
 	shared/geom.o \
+	shared/i18n.o \
 	shared/stream.o \
 	shared/tools.o \
 	shared/zip.o \
@@ -141,7 +142,7 @@ CLIENT_PCH= shared/cube.h.gch engine/engine.h.gch
 
 ifneq (,$(findstring mingw,$(PLATFORM)))
 SERVER_INCLUDES= -DSTANDALONE $(INCLUDES) -Iinclude
-SERVER_LIBS= -mwindows $(STD_LIBS) -L$(WINBIN) -L$(WINLIB) -lzlib1 -lenet -lws2_32 -lwinmm
+SERVER_LIBS= -mwindows $(STD_LIBS) -L$(WINBIN) -L$(WINLIB) -lzlib1 -lenet -lws2_32 -lwinmm -llibintl
 else
 SERVER_INCLUDES= -DSTANDALONE $(INCLUDES)
 SERVER_LIBS= -Lenet -lenet -lz
@@ -251,6 +252,8 @@ shared/crypto.o: shared/cube.h shared/tools.h shared/command.h shared/geom.h
 shared/crypto.o: shared/ents.h shared/iengine.h shared/igame.h
 shared/geom.o: shared/cube.h shared/tools.h shared/command.h shared/geom.h
 shared/geom.o: shared/ents.h shared/iengine.h shared/igame.h
+shared/i18n.o: shared/cube.h shared/tools.h shared/command.h shared/geom.h
+shared/i18n.o: shared/ents.h shared/iengine.h shared/igame.h
 shared/stream.o: shared/cube.h shared/tools.h shared/command.h shared/geom.h
 shared/stream.o: shared/ents.h shared/iengine.h shared/igame.h
 shared/tools.o: shared/cube.h shared/tools.h shared/command.h shared/geom.h

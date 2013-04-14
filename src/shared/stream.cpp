@@ -216,6 +216,22 @@ done:
     return dst - dstbuf;
 }
 
+const char *_gettext(const char *msgid)
+{
+    if(msgid && msgid[0] != '\0')
+    {
+        char *src = gettext(msgid);
+        int len = strlen(src), utf8len = mbstowcs(NULL, src, 0);
+        uchar buf[utf8len];
+        // utf8 to cubecode encoding
+        decodeutf8(buf, utf8len, (uchar *)src, len, 0);
+        buf[utf8len] = '\0';
+        const char* ret = (char *)buf;
+        return ret;
+    } else
+        return "";
+}
+
 ///////////////////////// file system ///////////////////////
 
 #ifndef WIN32

@@ -867,6 +867,8 @@ int main(int argc, char **argv)
     clocktime = mktime(gmtime(&currenttime));
     clockoffset = currenttime-clocktime;
 
+    i18nmanager i18n(versionuname, copypath("data/locale", true));
+
     setlogfile(NULL);
     setlocations(true);
 

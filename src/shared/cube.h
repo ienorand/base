@@ -47,6 +47,12 @@
 
 #include <zlib.h>
 
+#ifdef __APPLE__
+    #include "INT/libintl.h"
+#else
+    #include <libintl.h>
+#endif
+
 #ifndef STANDALONE
 #include <SDL.h>
 #include <SDL_syswm.h>
@@ -62,6 +68,8 @@
 
 #include "iengine.h"
 #include "igame.h"
+
+#include "i18n.h"
 
 #endif
 

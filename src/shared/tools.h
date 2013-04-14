@@ -1226,6 +1226,9 @@ inline void __cdecl operator delete(void *p, const char *fn, int l) { ::operator
 #endif
 #endif
 
+extern const char *_gettext(const char *msgid);
+#define _(s) _gettext(s)
+
 const int islittleendian = 1;
 #ifdef SDL_BYTEORDER
 #define endianswap16 SDL_Swap16
