@@ -25,7 +25,7 @@ void showcursor(bool show)
         {
             Uint8 sd[1] = { 0 };
             if(!(scursor = SDL_CreateCursor(sd, sd, 1, 1, 0, 0)))
-                fatal("could not create blank cursor");
+                fatal(_("could not create blank cursor"));
         }
 
         SDL_SetCursor(scursor);
@@ -120,7 +120,7 @@ void fatal(const char *s, ...)    // failure exit
                 cleargamma();
             }
             #ifdef WIN32
-            defformatstring(cap)("%s: Error", versionname);
+            defformatstring(cap)(_("%s: Error"), versionname);
             MessageBox(NULL, msg, cap, MB_OK|MB_SYSTEMMODAL);
             #endif
             SDL_Quit();
@@ -138,19 +138,19 @@ void fatalsignal(int signum)
         const char *str = "";
         switch(signum)
         {
-            case SIGINT: str = "Interrupt signal %d (Exiting)"; break;
-            case SIGILL: str = "Fatal signal %d (Illegal Instruction)"; break;
-            case SIGABRT: str = "Fatal signal %d (Aborted)"; break;
-            case SIGFPE: str = "Fatal signal %d (Floating-point Exception)"; break;
-            case SIGSEGV: str = "Fatal signal %d (Segmentation Violation)"; break;
-            case SIGTERM: str = "Fatal signal %d (Terminated)"; break;
+            case SIGINT: str = _("Interrupt signal %d (Exiting)"); break;
+            case SIGILL: str = _("Fatal signal %d (Illegal Instruction)"); break;
+            case SIGABRT: str = _("Fatal signal %d (Aborted)"); break;
+            case SIGFPE: str = _("Fatal signal %d (Floating-point Exception)"); break;
+            case SIGSEGV: str = _("Fatal signal %d (Segmentation Violation)"); break;
+            case SIGTERM: str = _("Fatal signal %d (Terminated)"); break;
 #if !defined(WIN32) && !defined(__APPLE__)
-            case SIGQUIT: str = "Fatal signal %d (Quit)"; break;
-            case SIGKILL: str = "Fatal signal %d (Killed)"; break;
-            case SIGPIPE: str = "Fatal signal %d (Broken Pipe)"; break;
-            case SIGALRM: str = "Fatal signal %d (Alarm)"; break;
+            case SIGQUIT: str = _("Fatal signal %d (Quit)"); break;
+            case SIGKILL: str = _("Fatal signal %d (Killed)"); break;
+            case SIGPIPE: str = _("Fatal signal %d (Broken Pipe)"); break;
+            case SIGALRM: str = _("Fatal signal %d (Alarm)"); break;
 #endif
-            default: str = "Error: Fatal signal %d (Unknown Error)"; break;
+            default: str = _("Error: Fatal signal %d (Unknown Error)"); break;
         }
         fatal(str, signum);
     }
@@ -179,14 +179,14 @@ bool initwarning(const char *desc, int level, int type, bool force)
 #define SCR_MAXH 10000
 #define SCR_DEFAULTW 1024
 #define SCR_DEFAULTH 768
-VARF(0, scr_w, SCR_MINW, -1, SCR_MAXW, initwarning("screen resolution"));
-VARF(0, scr_h, SCR_MINH, -1, SCR_MAXH, initwarning("screen resolution"));
-VARF(0, colorbits, 0, 0, 32, initwarning("color depth"));
-VARF(0, depthbits, 0, 0, 32, initwarning("depth-buffer precision"));
-VARF(0, stencilbits, 0, 0, 32, initwarning("stencil-buffer precision"));
-VARF(0, fsaa, -1, -1, 16, initwarning("anti-aliasing"));
+VARF(0, scr_w, SCR_MINW, -1, SCR_MAXW, initwarning(_("screen resolution")));
+VARF(0, scr_h, SCR_MINH, -1, SCR_MAXH, initwarning(_("screen resolution")));
+VARF(0, colorbits, 0, 0, 32, initwarning(_("color depth")));
+VARF(0, depthbits, 0, 0, 32, initwarning(_("depth-buffer precision")));
+VARF(0, stencilbits, 0, 0, 32, initwarning(_("stencil-buffer precision")));
+VARF(0, fsaa, -1, -1, 16, initwarning(_("anti-aliasing")));
 int actualvsync = -1;
-VARF(0, vsync, -1, -1, 1, initwarning("vertical sync"));
+VARF(0, vsync, -1, -1, 1, initwarning(_("vertical sync")));
 
 void writeinitcfg()
 {
@@ -237,7 +237,7 @@ void setfullscreen(bool enable, bool force)
     if(!screen) return;
     fullscreen = enable ? 1 : 0;
 #if defined(WIN32) || defined(__APPLE__)
-    initwarning(enable ? "fullscreen" : "windowed", INIT_RESET, CHANGE_GFX, force);
+    initwarning(enable ? _("fullscreen") : _("windowed"), INIT_RESET, CHANGE_GFX, force);
 #else
     if(enable == !(screen->flags&SDL_FULLSCREEN))
     {
@@ -258,7 +258,7 @@ void screenres(int *w, int *h)
         scr_w = clamp(*w, SCR_MINW, SCR_MAXW);
         scr_h = clamp(*h, SCR_MINH, SCR_MAXH);
 #if defined(WIN32) || defined(__APPLE__)
-        initwarning("screen resolution");
+        initwarning(_("screen resolution"));
 #else
         return;
     }
@@ -281,7 +281,7 @@ VARF(IDF_PERSIST, gamma, 30, 100, 300,
     float f = gamma/100.0f;
     if(SDL_SetGamma(f,f,f)==-1)
     {
-        conoutf("\frcould not set gamma: %s", SDL_GetError());
+        conoutf(_("\frcould not set gamma: %s"), SDL_GetError());
     }
 });
 
@@ -399,16 +399,16 @@ void setupscreen(int &usedcolorbits, int &useddepthbits, int &usedfsaa)
         screen = SDL_SetVideoMode(scr_w, scr_h, hasbpp ? colorbits : 0, SDL_OPENGL|flags);
         if(screen) break;
     }
-    if(!screen) fatal("Unable to create OpenGL screen: %s", SDL_GetError());
+    if(!screen) fatal(_("Unable to create OpenGL screen: %s"), SDL_GetError());
     else
     {
-        if(!hasbpp) conoutf("\fr%d bit color buffer not supported - disabling", colorbits);
-        if(depthbits && (config&1)==0) conoutf("\fr%d bit z-buffer not supported - disabling", depthbits);
-        if(stencilbits && (config&2)==0) conoutf("\frStencil buffer not supported - disabling");
-        if(fsaa>0 && (config&4)==0) conoutf("\fr%dx anti-aliasing not supported - disabling", fsaa);
+        if(!hasbpp) conoutf(_("\fr%d bit color buffer not supported - disabling"), colorbits);
+        if(depthbits && (config&1)==0) conoutf(_("\fr%d bit z-buffer not supported - disabling"), depthbits);
+        if(stencilbits && (config&2)==0) conoutf(_("\frStencil buffer not supported - disabling"));
+        if(fsaa>0 && (config&4)==0) conoutf(_("\fr%dx anti-aliasing not supported - disabling"), fsaa);
 #if SDL_VERSION_ATLEAST(1, 2, 11)
         if(SDL_GL_GetAttribute(SDL_GL_SWAP_CONTROL, &actualvsync) >= 0 && actualvsync >= 0) // could be forced on
-            conoutf("vsync is %s", actualvsync ? "enabled" : "disabled");
+            conoutf(_("vsync is %s"), actualvsync ? _("enabled") : _("disabled"));
 #endif
     }
 
@@ -424,7 +424,7 @@ void resetgl()
 {
     clearchanges(CHANGE_GFX);
 
-    progress(0, "resetting OpenGL..");
+    progress(0, _("resetting OpenGL.."));
 
     extern void cleanupva();
     extern void cleanupparticles();
@@ -466,10 +466,10 @@ void resetgl()
 
     inbetweenframes = false;
     if(!reloadtexture(notexturetex) || !reloadtexture(blanktex) || !reloadtexture(logotex) || !reloadtexture(badgetex))
-        fatal("failed to reload core textures");
+        fatal((_ "failed to reload core textures"));
     reloadfonts();
     inbetweenframes = true;
-    progress(0, "initializing...");
+    progress(0, _("initializing..."));
     restoregamma();
     reloadshaders();
     reloadtextures();
@@ -679,11 +679,11 @@ void limitfps(int &millis, int curmillis)
 #if defined(WIN32) && !defined(_DEBUG) && !defined(__GNUC__)
 void stackdumper(unsigned int type, EXCEPTION_POINTERS *ep)
 {
-    if(!ep) fatal("unknown type");
+    if(!ep) fatal(_("unknown type"));
     EXCEPTION_RECORD *er = ep->ExceptionRecord;
     CONTEXT *context = ep->ContextRecord;
     string out, t;
-    formatstring(out)("%s Win32 Exception: 0x%x [0x%x]\n\n", versionname, er->ExceptionCode, er->ExceptionCode==EXCEPTION_ACCESS_VIOLATION ? er->ExceptionInformation[1] : -1);
+    formatstring(out)(_("%s Win32 Exception: 0x%x [0x%x]\n\n"), versionname, er->ExceptionCode, er->ExceptionCode==EXCEPTION_ACCESS_VIOLATION ? er->ExceptionInformation[1] : -1);
     SymInitialize(GetCurrentProcess(), NULL, TRUE);
 #ifdef _AMD64_
     STACKFRAME64 sf = {{context->Rip, 0, AddrModeFlat}, {}, {context->Rbp, 0, AddrModeFlat}, {context->Rsp, 0, AddrModeFlat}, 0};
@@ -808,7 +808,7 @@ void progress(float bar1, const char *text1, float bar2, const char *text2)
     interceptkey(SDLK_UNKNOWN); // keep the event queue awake to avoid 'beachball' cursor
     #endif
 
-    setsvar("progresstitle", text1 ? text1 : "please wait..");
+    setsvar((_ "progresstitle"), text1 ? text1 : (_ "please wait.."));
     setfvar("progressamt", bar1);
     setsvar("progresstext", text2 ? text2 : "");
     setfvar("progresspart", bar2);
@@ -816,7 +816,7 @@ void progress(float bar1, const char *text1, float bar2, const char *text2)
     {
         if(text2) conoutf("%s [%.2f%%], %s [%.2f%%]", text1, bar1*100.f, text2, bar2*100.f);
         else if(text1) conoutf("%s [%.2f%%]", text1, bar1*100.f);
-        else conoutf("progressing [%.2f%%]", bar1*100.f);
+        else conoutf(_("progressing [%.2f%%]"), bar1*100.f);
     }
 
     progressing = true;
@@ -923,7 +923,7 @@ int main(int argc, char **argv)
                         shaderprecision = prec;
                         break;
                     }
-                    default: conoutf("\frunknown display option %c", argv[i][2]); break;
+                    default: conoutf(_("\frunknown display option %c"), argv[i][2]); break;
                 }
                 break;
             }
@@ -939,15 +939,15 @@ int main(int argc, char **argv)
 
     numcpus = clamp(guessnumcpus(), 1, 16);
 
-    conoutf("loading enet..");
-    if(enet_initialize()<0) fatal("Unable to initialise network module");
+    conoutf(_("loading enet.."));
+    if(enet_initialize()<0) fatal(_("Unable to initialise network module"));
     atexit(enet_deinitialize);
     enet_time_set(0);
 
-    conoutf("loading game..");
+    conoutf(_("loading game.."));
     initgame();
 
-    conoutf("loading sdl..");
+    conoutf((_ "loading sdl.."));
     #ifdef WIN32
     SetEnvironmentVariable("SDL_DISABLE_LOCK_KEYS", "1");
     SetEnvironmentVariable("SDL_VIDEO_ALLOW_SCREENSAVER", "0");
@@ -968,9 +968,9 @@ int main(int argc, char **argv)
     //#endif
 
     par |= SDL_INIT_TIMER|SDL_INIT_VIDEO|SDL_INIT_NOPARACHUTE;
-    if(SDL_Init(par) < 0) fatal("error initialising SDL: %s", SDL_GetError());
+    if(SDL_Init(par) < 0) fatal((_ "error initialising SDL: %s"), SDL_GetError());
 
-    conoutf("loading video..");
+    conoutf(_("loading video.."));
     const SDL_VideoInfo *video = SDL_GetVideoInfo();
     if(video)
     {
@@ -982,7 +982,7 @@ int main(int argc, char **argv)
 
     showcursor(false);
     keyrepeat(false);
-    setcaption("please wait..");
+    setcaption(_("please wait.."));
 
     signal(SIGINT, fatalsignal);
     signal(SIGILL, fatalsignal);
@@ -998,45 +998,45 @@ int main(int argc, char **argv)
     signal(SIGALRM, fatalsignal);
 #endif
 
-    conoutf("loading gl..");
+    conoutf(_("loading gl.."));
     gl_checkextensions();
     gl_init(scr_w, scr_h, usedcolorbits, useddepthbits, usedfsaa);
     if(!(notexture = textureload(notexturetex)) || !(blanktexture = textureload(blanktex)))
-        fatal("could not find core textures");
+        fatal((_ "could not find core textures"));
 
-    conoutf("loading sound..");
+    conoutf(_("loading sound.."));
     initsound();
 
     game::start();
 
-    conoutf("loading defaults..");
-    if(!execfile("config/stdlib.cfg", false)) fatal("cannot find data files");
-    if(!setfont("default")) fatal("no default font specified");
+    conoutf((_ "loading defaults.."));
+    if(!execfile("config/stdlib.cfg", false)) fatal((_ "cannot find data files"));
+    if(!setfont("default")) fatal((_ "no default font specified"));
     inbetweenframes = true;
-    progress(0, "please wait..");
+    progress(0, _("please wait.."));
 
-    conoutf("loading gl effects..");
-    progress(0, "loading gl effects..");
+    conoutf(_("loading gl effects.."));
+    progress(0, _("loading gl effects.."));
     loadshaders();
 
-    conoutf("loading world..");
-    progress(0, "loading world..");
+    conoutf(_("loading world.."));
+    progress(0, _("loading world.."));
     emptymap(0, true, NULL, true);
 
-    conoutf("loading config..");
-    progress(0, "loading config..");
+    conoutf(_("loading config.."));
+    progress(0, _("loading config.."));
     rehash(false);
     smartmusic(true, false);
 
-    conoutf("loading required data..");
-    progress(0, "loading required data..");
+    conoutf(_("loading required data.."));
+    progress(0, _("loading required data.."));
     preloadtextures();
     particleinit();
     initdecals();
 
     trytofindocta();
-    conoutf("loading main..");
-    progress(0, "loading main..");
+    conoutf(_("loading main.."));
+    progress(0, _("loading main.."));
     if(initscript) execute(initscript, true);
 
 #ifdef WIN32
