@@ -1,0 +1,1335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-14 23:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config/menus/editing.cfg:38
+msgid "set the attributes below to search for"
+msgstr ""
+
+#: config/menus/editing.cfg:41
+msgid "type\t"
+msgstr ""
+
+#: config/menus/editing.cfg:56
+msgid "off"
+msgstr ""
+
+#: config/menus/editing.cfg:58
+msgid "inside selection"
+msgstr ""
+
+#: config/menus/editing.cfg:60
+msgid "outside selection"
+msgstr ""
+
+#: config/menus/editing.cfg:65
+msgid "copy attributes from currently selected entity"
+msgstr ""
+
+#: config/menus/editing.cfg:73
+msgid "select all valid entities"
+msgstr ""
+
+#: config/menus/editing.cfg:94
+msgid "toggle walk / edit mode"
+msgstr ""
+
+#: config/menus/editing.cfg:96 config/menus/editing.cfg:667
+msgid "open textures menu.."
+msgstr ""
+
+#: config/menus/editing.cfg:97
+msgid "open this edit menu.."
+msgstr ""
+
+#: config/menus/editing.cfg:98
+msgid "open materials menu.."
+msgstr ""
+
+#: config/menus/editing.cfg:99
+msgid "open console.."
+msgstr ""
+
+#: config/menus/editing.cfg:101
+msgid "optimize geometry"
+msgstr ""
+
+#: config/menus/editing.cfg:102
+msgid "patch existing lightmap (patch)"
+msgstr ""
+
+#: config/menus/editing.cfg:103
+msgid "quick calculate lights (preview)"
+msgstr ""
+
+#: config/menus/editing.cfg:104
+msgid "full calculate lights (full)"
+msgstr ""
+
+#: config/menus/editing.cfg:106
+msgid "environment settings.."
+msgstr ""
+
+#: config/menus/editing.cfg:108
+msgid "claim privileges.."
+msgstr ""
+
+#: config/menus/editing.cfg:110
+msgid "send map to server"
+msgstr ""
+
+#: config/menus/editing.cfg:111
+msgid "get map from server"
+msgstr ""
+
+#: config/menus/editing.cfg:113
+msgid "take screenshot"
+msgstr ""
+
+#: config/menus/editing.cfg:116
+msgid "\t\t\t\tkey F1"
+msgstr ""
+
+#: config/menus/editing.cfg:118
+msgid "\t\t\t\tkey F2"
+msgstr ""
+
+#: config/menus/editing.cfg:119
+msgid "\t\t\t\tkey F3"
+msgstr ""
+
+#: config/menus/editing.cfg:120
+msgid "\t\t\t\tkey Numpad 0"
+msgstr ""
+
+#: config/menus/editing.cfg:121
+msgid "\t\t\t\tkey ~ or /"
+msgstr ""
+
+#: config/menus/editing.cfg:123
+msgid "\t\t\t\tkey F4"
+msgstr ""
+
+#: config/menus/editing.cfg:124
+msgid "\t\t\t\tkey F5"
+msgstr ""
+
+#: config/menus/editing.cfg:125
+msgid "\t\t\t\tkey F6"
+msgstr ""
+
+#: config/menus/editing.cfg:126
+msgid "\t\t\t\tkey F7"
+msgstr ""
+
+#: config/menus/editing.cfg:132
+msgid "\t\t\t\tkey Insert"
+msgstr ""
+
+#: config/menus/editing.cfg:133
+msgid "\t\t\t\tkey Delete"
+msgstr ""
+
+#: config/menus/editing.cfg:135
+msgid "\t\t\t\tkey F12"
+msgstr ""
+
+#: config/menus/editing.cfg:145
+msgid "set map title.."
+msgstr ""
+
+#: config/menus/editing.cfg:147
+msgid "set map author.."
+msgstr ""
+
+#: config/menus/editing.cfg:149
+msgid "set map filename"
+msgstr ""
+
+#: config/menus/editing.cfg:152
+msgid "^foSAVE ^fwmap as filename"
+msgstr ""
+
+#: config/menus/editing.cfg:154
+msgid "increase mapsize (2x)"
+msgstr ""
+
+#: config/menus/editing.cfg:156
+msgid "start new map"
+msgstr ""
+
+#: config/menus/editing.cfg:167
+msgid "key F8"
+msgstr ""
+
+#: config/menus/editing.cfg:178
+msgid "find ents"
+msgstr ""
+
+#: config/menus/editing.cfg:180
+msgid "link selected ents (teleport, sound, trigger)"
+msgstr ""
+
+#: config/menus/editing.cfg:182
+msgid "focus on selected ent"
+msgstr ""
+
+#: config/menus/editing.cfg:183
+msgid "deselect all ents"
+msgstr ""
+
+#: config/menus/editing.cfg:184
+msgid "edit selected ent"
+msgstr ""
+
+#: config/menus/editing.cfg:186
+msgid "select all ents inside selection area"
+msgstr ""
+
+#: config/menus/editing.cfg:187
+msgid "select all ents matching selected"
+msgstr ""
+
+#: config/menus/editing.cfg:190
+msgid "create weapon.."
+msgstr ""
+
+#: config/menus/editing.cfg:191
+msgid "create playerstart"
+msgstr ""
+
+#: config/menus/editing.cfg:192
+msgid "create light.."
+msgstr ""
+
+#: config/menus/editing.cfg:193
+msgid "create lightfx.."
+msgstr ""
+
+#: config/menus/editing.cfg:194
+msgid "create teleport.."
+msgstr ""
+
+#: config/menus/editing.cfg:195
+msgid "create mapmodel"
+msgstr ""
+
+#: config/menus/editing.cfg:196
+msgid "create sound"
+msgstr ""
+
+#: config/menus/editing.cfg:197
+msgid "create pusher"
+msgstr ""
+
+#: config/menus/editing.cfg:198
+msgid "create affinity (flag, bomb)"
+msgstr ""
+
+#: config/menus/editing.cfg:199
+msgid "create actor"
+msgstr ""
+
+#: config/menus/editing.cfg:200
+msgid "create trigger"
+msgstr ""
+
+#: config/menus/editing.cfg:201
+msgid "create checkpoint"
+msgstr ""
+
+#: config/menus/editing.cfg:206
+msgid "\t\t\tkey L cycles link modes"
+msgstr ""
+
+#: config/menus/editing.cfg:208
+msgid "\t\t\tkey Comma (,) + scroll"
+msgstr ""
+
+#: config/menus/editing.cfg:209
+msgid "\t\t\tkey End"
+msgstr ""
+
+#: config/menus/editing.cfg:210
+msgid "\t\t\tkey Period (.)"
+msgstr ""
+
+#: config/menus/editing.cfg:212
+msgid "\t\t\tkey N"
+msgstr ""
+
+#: config/menus/editing.cfg:227
+msgid "copy"
+msgstr ""
+
+#: config/menus/editing.cfg:228
+msgid "paste"
+msgstr ""
+
+#: config/menus/editing.cfg:230
+msgid "mirror geometry per selection orientation"
+msgstr ""
+
+#: config/menus/editing.cfg:231
+msgid "delete selected ents / geometry"
+msgstr ""
+
+#: config/menus/editing.cfg:464 config/menus/editing.cfg:798
+msgid "sword"
+msgstr ""
+
+#: config/menus/editing.cfg:465 config/menus/editing.cfg:799
+msgid "shotgun"
+msgstr ""
+
+#: config/menus/editing.cfg:466 config/menus/editing.cfg:800
+msgid "smg"
+msgstr ""
+
+#: config/menus/editing.cfg:467 config/menus/editing.cfg:801
+msgid "flamer"
+msgstr ""
+
+#: config/menus/editing.cfg:468 config/menus/editing.cfg:802
+msgid "plasma"
+msgstr ""
+
+#: config/menus/editing.cfg:469
+msgid "rifle"
+msgstr ""
+
+#: config/menus/editing.cfg:470
+msgid "grenade"
+msgstr ""
+
+#: config/menus/editing.cfg:471
+msgid "mine"
+msgstr ""
+
+#: config/menus/editing.cfg:472
+msgid "rocket"
+msgstr ""
+
+#: config/menus/editing.cfg:476
+msgid "weapon 2"
+msgstr ""
+
+#: config/menus/editing.cfg:477
+msgid "weapon 3"
+msgstr ""
+
+#: config/menus/editing.cfg:478
+msgid "weapon 4"
+msgstr ""
+
+#: config/menus/editing.cfg:479
+msgid "weapon 5"
+msgstr ""
+
+#: config/menus/editing.cfg:480
+msgid "weapon 6"
+msgstr ""
+
+#: config/menus/editing.cfg:481
+msgid "weapon 7"
+msgstr ""
+
+#: config/menus/editing.cfg:482
+msgid "weapon 8"
+msgstr ""
+
+#: config/menus/editing.cfg:483
+msgid "weapon 9"
+msgstr ""
+
+#: config/menus/editing.cfg:489
+msgid "^foREVERT ^fwto last saved version of @savemap_name"
+msgstr ""
+
+#: config/menus/editing.cfg:491
+msgid "^foOPEN ^fwan existing map"
+msgstr ""
+
+#: config/menus/editing.cfg:493
+msgid "^foCLEAR MAP ^fwand begin a new one ^fr(Warning!)"
+msgstr ""
+
+#: config/menus/editing.cfg:494
+msgid "size of new map"
+msgstr ""
+
+#: config/menus/editing.cfg:499 config/menus/editing.cfg:543
+#: config/menus/editing.cfg:848
+msgid "white"
+msgstr ""
+
+#: config/menus/editing.cfg:500
+msgid "black"
+msgstr ""
+
+#: config/menus/editing.cfg:501 config/menus/editing.cfg:537
+#: config/menus/editing.cfg:601 config/menus/editing.cfg:849
+msgid "blue"
+msgstr ""
+
+#: config/menus/editing.cfg:502 config/menus/editing.cfg:535
+#: config/menus/editing.cfg:599 config/menus/editing.cfg:850
+msgid "red"
+msgstr ""
+
+#: config/menus/editing.cfg:503 config/menus/editing.cfg:536
+#: config/menus/editing.cfg:600 config/menus/editing.cfg:851
+msgid "green"
+msgstr ""
+
+#: config/menus/editing.cfg:504 config/menus/editing.cfg:539
+#: config/menus/editing.cfg:603 config/menus/editing.cfg:852
+msgid "yellow"
+msgstr ""
+
+#: config/menus/editing.cfg:506
+msgid "toggle outline"
+msgstr ""
+
+#: config/menus/editing.cfg:512
+msgid "^fo/entlink ^fw cycles link modes of selected ents"
+msgstr ""
+
+#: config/menus/editing.cfg:514
+msgid "cycle linkmode +\t\t\tkey L"
+msgstr ""
+
+#: config/menus/editing.cfg:516
+msgid "link modes:"
+msgstr ""
+
+#: config/menus/editing.cfg:522
+msgid "create new teleport"
+msgstr ""
+
+#: config/menus/editing.cfg:523
+msgid "create new sound"
+msgstr ""
+
+#: config/menus/editing.cfg:524
+msgid "create new trigger"
+msgstr ""
+
+#: config/menus/editing.cfg:538 config/menus/editing.cfg:602
+msgid "orange"
+msgstr ""
+
+#: config/menus/editing.cfg:540 config/menus/editing.cfg:604
+#: config/menus/editing.cfg:853
+msgid "purple"
+msgstr ""
+
+#: config/menus/editing.cfg:541 config/menus/editing.cfg:605
+#: config/menus/editing.cfg:854
+msgid "turquoise"
+msgstr ""
+
+#: config/menus/editing.cfg:542
+msgid "dark"
+msgstr ""
+
+#: config/menus/editing.cfg:564
+msgid "^fo/vrotate ^fy# ^fy(1-3 rotate, 4-5 flip)"
+msgstr ""
+
+#: config/menus/editing.cfg:566
+msgid "rotation/flip +"
+msgstr ""
+
+#: config/menus/editing.cfg:567
+msgid "rotation/flip -"
+msgstr ""
+
+#: config/menus/editing.cfg:569
+msgid "rotate 90"
+msgstr ""
+
+#: config/menus/editing.cfg:570
+msgid "rotate 180"
+msgstr ""
+
+#: config/menus/editing.cfg:571
+msgid "rotate 270"
+msgstr ""
+
+#: config/menus/editing.cfg:573
+msgid "flip vertical"
+msgstr ""
+
+#: config/menus/editing.cfg:574
+msgid "flip horizontal"
+msgstr ""
+
+#: config/menus/editing.cfg:576 config/menus/editing.cfg:630
+#: config/menus/editing.cfg:644
+msgid "^foRESET ^fwto 0"
+msgstr ""
+
+#: config/menus/editing.cfg:583
+msgid "red gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:584
+msgid "green gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:585
+msgid "blue gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:586
+msgid "orange gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:587
+msgid "yellow gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:588
+msgid "purple gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:589
+msgid "turquoise gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:590
+#, perl-format
+msgid "50% gloss (subtle)"
+msgstr ""
+
+#: config/menus/editing.cfg:591
+msgid "no gloss (matte)"
+msgstr ""
+
+#: config/menus/editing.cfg:593 config/menus/editing.cfg:607
+msgid "^foRESET ^fwto 100%"
+msgstr ""
+
+#: config/menus/editing.cfg:613
+msgid "flat"
+msgstr ""
+
+#: config/menus/editing.cfg:614
+msgid "extreme"
+msgstr ""
+
+#: config/menus/editing.cfg:615
+msgid "another dimension"
+msgstr ""
+
+#: config/menus/editing.cfg:617
+msgid "^foRESET ^fwto default"
+msgstr ""
+
+#: config/menus/editing.cfg:624
+msgid "scroll Y +"
+msgstr ""
+
+#: config/menus/editing.cfg:625
+msgid "scroll Y -"
+msgstr ""
+
+#: config/menus/editing.cfg:627
+msgid "scroll X +"
+msgstr ""
+
+#: config/menus/editing.cfg:628
+msgid "scroll X -"
+msgstr ""
+
+#: config/menus/editing.cfg:638
+msgid "offset Y +"
+msgstr ""
+
+#: config/menus/editing.cfg:639
+msgid "offset Y -"
+msgstr ""
+
+#: config/menus/editing.cfg:641
+msgid "offset X +"
+msgstr ""
+
+#: config/menus/editing.cfg:642
+msgid "offset X -"
+msgstr ""
+
+#: config/menus/editing.cfg:654
+msgid "assign a blend layer to selected texture:"
+msgstr ""
+
+#: config/menus/editing.cfg:655
+msgid "^fo/vlayer ^fy# ^fw(slot number)"
+msgstr ""
+
+#: config/menus/editing.cfg:659
+msgid "texture slot number: "
+msgstr ""
+
+#: config/menus/editing.cfg:662
+msgid "^foADD ^fwabove brush"
+msgstr ""
+
+#: config/menus/editing.cfg:663
+msgid "^foREMOVE ^fwabove brush"
+msgstr ""
+
+#: config/menus/editing.cfg:670
+msgid "cycle blend paint modes"
+msgstr ""
+
+#: config/menus/editing.cfg:673
+msgid "^fgblend mode:^fw"
+msgstr ""
+
+#: config/menus/editing.cfg:675
+msgid "blend mode off"
+msgstr ""
+
+#: config/menus/editing.cfg:677
+msgid "cycle paint brush: "
+msgstr ""
+
+#: config/menus/editing.cfg:681
+msgid "generate preview"
+msgstr ""
+
+#: config/menus/editing.cfg:683
+msgid "^foCLEAR ^fwBlendmap"
+msgstr ""
+
+#: config/menus/editing.cfg:693
+msgid "\tkey F2"
+msgstr ""
+
+#: config/menus/editing.cfg:695
+msgid "\tkey P"
+msgstr ""
+
+#: config/menus/editing.cfg:696
+msgid "\tkey Alt"
+msgstr ""
+
+#: config/menus/editing.cfg:697
+msgid " \tscroll mouse wheel"
+msgstr ""
+
+#: config/menus/editing.cfg:708
+msgid "^foCLEAR ^fwall unused textures from map cfg"
+msgstr ""
+
+#: config/menus/editing.cfg:709
+msgid "^foCLEAR ^fwall textures from map cfg"
+msgstr ""
+
+#: config/menus/editing.cfg:710
+msgid "^foLOAD ^fwdefault texture package to map cfg (reload map required)"
+msgstr ""
+
+#: config/menus/editing.cfg:717
+msgid "quick global lighting:"
+msgstr ""
+
+#: config/menus/editing.cfg:719
+msgid "night"
+msgstr ""
+
+#: config/menus/editing.cfg:720
+msgid "morning"
+msgstr ""
+
+#: config/menus/editing.cfg:721
+msgid "evening"
+msgstr ""
+
+#: config/menus/editing.cfg:723
+msgid "^foRESET ^fwenvironment to default"
+msgstr ""
+
+#: config/menus/editing.cfg:727
+msgid "grey shadows"
+msgstr ""
+
+#: config/menus/editing.cfg:728
+msgid "purple shadows"
+msgstr ""
+
+#: config/menus/editing.cfg:731
+msgid "^foRESET ^fwambient to default"
+msgstr ""
+
+#: config/menus/editing.cfg:735
+msgid "cool skylight"
+msgstr ""
+
+#: config/menus/editing.cfg:736
+msgid "soft skylight"
+msgstr ""
+
+#: config/menus/editing.cfg:737
+msgid "warm skylight"
+msgstr ""
+
+#: config/menus/editing.cfg:739
+msgid "^foRESET ^fwskylight to default"
+msgstr ""
+
+#: config/menus/editing.cfg:744
+msgid "fog distance far"
+msgstr ""
+
+#: config/menus/editing.cfg:745
+msgid "fog distance distant"
+msgstr ""
+
+#: config/menus/editing.cfg:746
+msgid "fog distance near"
+msgstr ""
+
+#: config/menus/editing.cfg:747
+msgid "^foRESET ^fwfog distance"
+msgstr ""
+
+#: config/menus/editing.cfg:751
+msgid "black fog (darkness)"
+msgstr ""
+
+#: config/menus/editing.cfg:752
+msgid "grey fog (haze)"
+msgstr ""
+
+#: config/menus/editing.cfg:753
+msgid "green fog (gas)"
+msgstr ""
+
+#: config/menus/editing.cfg:754
+msgid "^foRESET ^fwfog color to default"
+msgstr ""
+
+#: config/menus/editing.cfg:757
+msgid "^fo/skybox ^fyfolder/filename"
+msgstr ""
+
+#: config/menus/editing.cfg:758
+msgid "set skybox to skyhigh"
+msgstr ""
+
+#: config/menus/editing.cfg:759
+msgid "set skybox to sunsetflat"
+msgstr ""
+
+#: config/menus/editing.cfg:760
+msgid "set skybox to gradient"
+msgstr ""
+
+#: config/menus/editing.cfg:761
+msgid "^foREMOVE ^fwskybox"
+msgstr ""
+
+#: config/menus/editing.cfg:765
+msgid "set sky color to orange"
+msgstr ""
+
+#: config/menus/editing.cfg:766
+msgid "set sky color to yellow"
+msgstr ""
+
+#: config/menus/editing.cfg:767
+msgid "set sky color to red"
+msgstr ""
+
+#: config/menus/editing.cfg:768
+msgid "set sky color to blue"
+msgstr ""
+
+#: config/menus/editing.cfg:769
+msgid "set sky color to black"
+msgstr ""
+
+#: config/menus/editing.cfg:770
+msgid "^foRESET ^fwsky color"
+msgstr ""
+
+#: config/menus/editing.cfg:773
+msgid "^fo/cloudlayer ^fyfolder/filename"
+msgstr ""
+
+#: config/menus/editing.cfg:774
+msgid "set clouds to clouds01"
+msgstr ""
+
+#: config/menus/editing.cfg:775
+msgid "set clouds to clouds02"
+msgstr ""
+
+#: config/menus/editing.cfg:776
+msgid "set clouds to clouds03"
+msgstr ""
+
+#: config/menus/editing.cfg:777
+msgid "^foREMOVE ^fwcloudlayer"
+msgstr ""
+
+#: config/menus/editing.cfg:781
+msgid "set cloud color to orange"
+msgstr ""
+
+#: config/menus/editing.cfg:782
+msgid "set cloud color to yellow"
+msgstr ""
+
+#: config/menus/editing.cfg:783
+msgid "set cloud color to red"
+msgstr ""
+
+#: config/menus/editing.cfg:784
+msgid "set cloud color to blue"
+msgstr ""
+
+#: config/menus/editing.cfg:785
+msgid "set cloud color to black"
+msgstr ""
+
+#: config/menus/editing.cfg:786
+msgid "^foRESET ^fwcloud color"
+msgstr ""
+
+#: config/menus/editing.cfg:790
+msgid "none"
+msgstr ""
+
+#: config/menus/editing.cfg:791
+msgid "low"
+msgstr ""
+
+#: config/menus/editing.cfg:792
+msgid "default"
+msgstr ""
+
+#: config/menus/editing.cfg:806
+msgid "\t\t\trifle"
+msgstr ""
+
+#: config/menus/editing.cfg:807
+msgid "\t\t\tgrenade"
+msgstr ""
+
+#: config/menus/editing.cfg:808
+msgid "\t\t\tmine"
+msgstr ""
+
+#: config/menus/editing.cfg:809
+msgid "\t\t\trocket"
+msgstr ""
+
+#: config/menus/editing.cfg:813
+msgid "^foplayer vars"
+msgstr ""
+
+#: config/menus/editing.cfg:814
+msgid "maximum inventory (default 2)"
+msgstr ""
+
+#: config/menus/editing.cfg:815
+msgid "jumpspeed (default 100)"
+msgstr ""
+
+#: config/menus/editing.cfg:816
+msgid "impulse freestyle (default 1)"
+msgstr ""
+
+#: config/menus/editing.cfg:818
+msgid "show all variables.."
+msgstr ""
+
+#: config/menus/editing.cfg:844
+msgid "create a sunlight entity          "
+msgstr ""
+
+#: config/menus/editing.cfg:846
+msgid "light radius:"
+msgstr ""
+
+#: config/menus/editing.cfg:856
+msgid "bright"
+msgstr ""
+
+#: config/menus/editing.cfg:858
+msgid "^foCREATE"
+msgstr ""
+
+#: config/menus/editing.cfg:870
+msgid "Quick Commands:"
+msgstr ""
+
+#: config/menus/editing.cfg:873
+msgid "quicklight"
+msgstr ""
+
+#: config/menus/editing.cfg:874
+msgid "optimize map"
+msgstr ""
+
+#: config/menus/editing.cfg:875
+msgid "new entity"
+msgstr ""
+
+#: config/menus/editing.cfg:877
+msgid "newmap"
+msgstr ""
+
+#: config/menus/editing.cfg:879 config/menus/main.cfg:25
+msgid "help"
+msgstr ""
+
+#: config/menus/editing.cfg:883
+msgid "show material volumes\t\t   key M"
+msgstr ""
+
+#: config/menus/editing.cfg:885
+msgid "air\t\t\t\t\t\t\tkey Numpad 1"
+msgstr ""
+
+#: config/menus/editing.cfg:886
+msgid "alpha\t\t\t\t\t\tkey Numpad 2"
+msgstr ""
+
+#: config/menus/editing.cfg:887
+msgid "water\t\t\t\t\t\tkey Numpad 3"
+msgstr ""
+
+#: config/menus/editing.cfg:888
+msgid "lava\t\t\t\t\t\t\tkey Numpad 4"
+msgstr ""
+
+#: config/menus/editing.cfg:889
+msgid "clip\t\t\t\t\t\t\tkey Numpad 5"
+msgstr ""
+
+#: config/menus/editing.cfg:890
+msgid "noclip\t\t\t\t\t\tkey Numpad 6"
+msgstr ""
+
+#: config/menus/editing.cfg:891
+msgid "aiclip\t\t\t\t\t\tkey Numpad 7"
+msgstr ""
+
+#: config/menus/editing.cfg:892
+msgid "death\t\t\t\t\t\tkey Numpad 8"
+msgstr ""
+
+#: config/menus/editing.cfg:893
+msgid "ladder\t\t\t\t\t\tkey Numpad 9"
+msgstr ""
+
+#: config/menus/editing.cfg:903
+msgid "type"
+msgstr ""
+
+#: config/menus/editing.cfg:921
+msgid "materials"
+msgstr ""
+
+#: config/menus/main.cfg:8
+msgid "profile"
+msgstr ""
+
+#: config/menus/main.cfg:12
+msgid "editing"
+msgstr ""
+
+#: config/menus/main.cfg:15
+msgid "disconnect"
+msgstr ""
+
+#: config/menus/main.cfg:16
+msgid "show votes"
+msgstr ""
+
+#: config/menus/main.cfg:19
+msgid "find servers"
+msgstr ""
+
+#: config/menus/main.cfg:19
+msgid "play online"
+msgstr ""
+
+#: config/menus/main.cfg:20
+msgid "offline practice"
+msgstr ""
+
+#: config/menus/main.cfg:20
+msgid "vote map/mode"
+msgstr ""
+
+#: config/menus/main.cfg:22
+msgid "irc windows"
+msgstr ""
+
+#: config/menus/main.cfg:23
+msgid "options"
+msgstr ""
+
+#: config/menus/main.cfg:24
+msgid "variables"
+msgstr ""
+
+#: config/menus/main.cfg:27
+msgid "quit"
+msgstr ""
+
+#: config/menus/main.cfg:36
+msgid "displays the server browser for other online matches"
+msgstr ""
+
+#: config/menus/main.cfg:38
+msgid "edit your name, colour, and model type"
+msgstr ""
+
+#: config/menus/main.cfg:40
+msgid "access commands to use while editing a map"
+msgstr ""
+
+#: config/menus/main.cfg:42
+msgid "shows your open irc windows"
+msgstr ""
+
+#: config/menus/main.cfg:44
+msgid "disconnects your current connection"
+msgstr ""
+
+#: config/menus/main.cfg:46
+msgid "displays the current votes"
+msgstr ""
+
+#: config/menus/main.cfg:48
+msgid "practice on"
+msgstr ""
+
+#: config/menus/main.cfg:48
+msgid "select a map/mode combination to %1"
+msgstr ""
+
+#: config/menus/main.cfg:48
+msgid "vote for"
+msgstr ""
+
+#: config/menus/main.cfg:50
+msgid "edit your configuration options"
+msgstr ""
+
+#: config/menus/main.cfg:52
+msgid "edit gameplay and weapon variables"
+msgstr ""
+
+#: config/menus/main.cfg:54
+msgid "gets some help!"
+msgstr ""
+
+#: config/menus/main.cfg:56
+msgid "closes Red Eclipse"
+msgstr ""
+
+#: config/menus/main.cfg:58
+msgid "click on an activity to start"
+msgstr ""
+
+#: config/menus/main.cfg:87
+msgid "Loading.."
+msgstr ""
+
+#: config/menus/main.cfg:89
+msgid "Please wait.."
+msgstr ""
+
+#: config/menus/main.cfg:89
+msgid "Unknown"
+msgstr ""
+
+#: config/menus/main.cfg:89
+msgid "^faby"
+msgstr ""
+
+#: config/menus/main.cfg:92
+msgid "^faon: ^fw%1:[%2]"
+msgstr ""
+
+#: config/menus/main.cfg:95
+msgid "playing: [ ^fs^fa%1^fS ]"
+msgstr ""
+
+#: config/menus/main.cfg:143
+msgid "about"
+msgstr ""
+
+#: config/menus/main.cfg:144
+msgid "live support"
+msgstr ""
+
+#: engine/main.cpp:29
+msgid "could not create blank cursor"
+msgstr ""
+
+#: engine/main.cpp:134
+#, c-format
+msgid "%s: Error"
+msgstr ""
+
+#: engine/main.cpp:152
+#, c-format
+msgid "Interrupt signal %d (Exiting)"
+msgstr ""
+
+#: engine/main.cpp:153
+#, c-format
+msgid "Fatal signal %d (Illegal Instruction)"
+msgstr ""
+
+#: engine/main.cpp:154
+#, c-format
+msgid "Fatal signal %d (Aborted)"
+msgstr ""
+
+#: engine/main.cpp:155
+#, c-format
+msgid "Fatal signal %d (Floating-point Exception)"
+msgstr ""
+
+#: engine/main.cpp:156
+#, c-format
+msgid "Fatal signal %d (Segmentation Violation)"
+msgstr ""
+
+#: engine/main.cpp:157
+#, c-format
+msgid "Fatal signal %d (Terminated)"
+msgstr ""
+
+#: engine/main.cpp:159
+#, c-format
+msgid "Fatal signal %d (Quit)"
+msgstr ""
+
+#: engine/main.cpp:160
+#, c-format
+msgid "Fatal signal %d (Killed)"
+msgstr ""
+
+#: engine/main.cpp:161
+#, c-format
+msgid "Fatal signal %d (Broken Pipe)"
+msgstr ""
+
+#: engine/main.cpp:162
+#, c-format
+msgid "Fatal signal %d (Alarm)"
+msgstr ""
+
+#: engine/main.cpp:164
+#, c-format
+msgid "Error: Fatal signal %d (Unknown Error)"
+msgstr ""
+
+#: engine/main.cpp:193 engine/main.cpp:194 engine/main.cpp:272
+msgid "screen resolution"
+msgstr ""
+
+#: engine/main.cpp:195
+msgid "color depth"
+msgstr ""
+
+#: engine/main.cpp:196
+msgid "depth-buffer precision"
+msgstr ""
+
+#: engine/main.cpp:197
+msgid "stencil-buffer precision"
+msgstr ""
+
+#: engine/main.cpp:198
+msgid "anti-aliasing"
+msgstr ""
+
+#: engine/main.cpp:200
+msgid "vertical sync"
+msgstr ""
+
+#: engine/main.cpp:251
+msgid "fullscreen"
+msgstr ""
+
+#: engine/main.cpp:251
+msgid "windowed"
+msgstr ""
+
+#: engine/main.cpp:295
+#, c-format
+msgid "\frcould not set gamma: %s"
+msgstr ""
+
+#: engine/main.cpp:413
+#, c-format
+msgid "Unable to create OpenGL screen: %s"
+msgstr ""
+
+#: engine/main.cpp:416
+#, c-format
+msgid "\fr%d bit color buffer not supported - disabling"
+msgstr ""
+
+#: engine/main.cpp:417
+#, c-format
+msgid "\fr%d bit z-buffer not supported - disabling"
+msgstr ""
+
+#: engine/main.cpp:418
+msgid "\frStencil buffer not supported - disabling"
+msgstr ""
+
+#: engine/main.cpp:419
+#, c-format
+msgid "\fr%dx anti-aliasing not supported - disabling"
+msgstr ""
+
+#: engine/main.cpp:422
+msgid "disabled"
+msgstr ""
+
+#: engine/main.cpp:422
+msgid "enabled"
+msgstr ""
+
+#: engine/main.cpp:422
+#, c-format
+msgid "vsync is %s"
+msgstr ""
+
+#: engine/main.cpp:438
+msgid "resetting OpenGL.."
+msgstr ""
+
+#: engine/main.cpp:480
+msgid "failed to reload core textures"
+msgstr ""
+
+#: engine/main.cpp:483
+msgid "initializing..."
+msgstr ""
+
+#: engine/main.cpp:693
+msgid "unknown type"
+msgstr ""
+
+#: engine/main.cpp:697
+#, c-format
+msgid ""
+"%s Win32 Exception: 0x%x [0x%x]\n"
+"\n"
+msgstr ""
+
+#: engine/main.cpp:822
+msgid "loading.."
+msgstr ""
+
+#: engine/main.cpp:830
+#, c-format
+msgid "progressing [%.2f%%]"
+msgstr ""
+
+#: engine/main.cpp:908
+#, c-format
+msgid "\frunknown display option %c"
+msgstr ""
+
+#: engine/main.cpp:924
+msgid "loading enet.."
+msgstr ""
+
+#: engine/main.cpp:925
+msgid "Unable to initialise network module"
+msgstr ""
+
+#: engine/main.cpp:929
+msgid "loading game.."
+msgstr ""
+
+#: engine/main.cpp:932
+msgid "loading sdl.."
+msgstr ""
+
+#: engine/main.cpp:946
+#, c-format
+msgid "Unable to initialize SDL: %s"
+msgstr ""
+
+#: engine/main.cpp:948
+msgid "loading video.."
+msgstr ""
+
+#: engine/main.cpp:961 engine/main.cpp:992
+msgid "please wait.."
+msgstr ""
+
+#: engine/main.cpp:977
+msgid "loading gl.."
+msgstr ""
+
+#: engine/main.cpp:982
+msgid "could not find core textures"
+msgstr ""
+
+#: engine/main.cpp:984
+msgid "loading sound.."
+msgstr ""
+
+#: engine/main.cpp:987
+msgid "loading defaults.."
+msgstr ""
+
+#: engine/main.cpp:989
+msgid "cannot find data files"
+msgstr ""
+
+#: engine/main.cpp:990
+msgid "no default font specified"
+msgstr ""
+
+#: engine/main.cpp:994 engine/main.cpp:995
+msgid "loading gl effects.."
+msgstr ""
+
+#: engine/main.cpp:998 engine/main.cpp:999
+msgid "loading world.."
+msgstr ""
+
+#: engine/main.cpp:1002 engine/main.cpp:1003
+msgid "loading config.."
+msgstr ""
+
+#: engine/main.cpp:1007 engine/main.cpp:1008
+msgid "loading required data.."
+msgstr ""
+
+#: engine/main.cpp:1014 engine/main.cpp:1015
+msgid "loading main.."
+msgstr ""
