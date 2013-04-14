@@ -1,0 +1,1878 @@
+# Swedish translations for PACKAGE package.
+# Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Martin Erik Werner <martinerikwerner@gmail.com>, 2012.
+# Martin Erik Werner <ms@gms.com>, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-14 23:28+0200\n"
+"PO-Revision-Date: 2013-02-12 11:34+0200\n"
+"Last-Translator: Martin Erik Werner <ms@gms.com>\n"
+"Language-Team: mine\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+
+#: config/menus/editing.cfg:133
+msgid "\t\t\t\tkey Delete"
+msgstr "\t\t\t\tDelete"
+
+#: config/menus/editing.cfg:116
+msgid "\t\t\t\tkey F1"
+msgstr "\t\t\t\tF1"
+
+#: config/menus/editing.cfg:135
+msgid "\t\t\t\tkey F12"
+msgstr "\t\t\t\tF12"
+
+#: config/menus/editing.cfg:118
+msgid "\t\t\t\tkey F2"
+msgstr "\t\t\t\tF2"
+
+#: config/menus/editing.cfg:119
+msgid "\t\t\t\tkey F3"
+msgstr "\t\t\t\tF3"
+
+#: config/menus/editing.cfg:123
+msgid "\t\t\t\tkey F4"
+msgstr "\t\t\t\tF4"
+
+#: config/menus/editing.cfg:124
+msgid "\t\t\t\tkey F5"
+msgstr "\t\t\t\tF5"
+
+#: config/menus/editing.cfg:125
+msgid "\t\t\t\tkey F6"
+msgstr "\t\t\t\tF7"
+
+#: config/menus/editing.cfg:126
+msgid "\t\t\t\tkey F7"
+msgstr "\t\t\t\tF7"
+
+#: config/menus/editing.cfg:132
+msgid "\t\t\t\tkey Insert"
+msgstr "\t\t\t\tInsert"
+
+#: config/menus/editing.cfg:120
+msgid "\t\t\t\tkey Numpad 0"
+msgstr "\t\t\t\tNumpad 0"
+
+#: config/menus/editing.cfg:121
+msgid "\t\t\t\tkey ~ or /"
+msgstr "\t\t\t\t~ eller /"
+
+#: config/menus/editing.cfg:807
+msgid "\t\t\tgrenade"
+msgstr "\t\t\tgranat"
+
+#: config/menus/editing.cfg:208
+msgid "\t\t\tkey Comma (,) + scroll"
+msgstr "\t\t\tKommatecken (,) + skroll"
+
+#: config/menus/editing.cfg:209
+msgid "\t\t\tkey End"
+msgstr "\t\t\tEnd"
+
+#: config/menus/editing.cfg:206
+msgid "\t\t\tkey L cycles link modes"
+msgstr "\t\t\tL cyklar länkningslägen"
+
+#: config/menus/editing.cfg:212
+msgid "\t\t\tkey N"
+msgstr "\t\t\tN"
+
+#: config/menus/editing.cfg:210
+msgid "\t\t\tkey Period (.)"
+msgstr "\t\t\tPunkt (.)"
+
+#: config/menus/editing.cfg:808
+msgid "\t\t\tmine"
+msgstr ""
+
+#: config/menus/editing.cfg:806
+msgid "\t\t\trifle"
+msgstr "\t\t\tgevär"
+
+#: config/menus/editing.cfg:809
+msgid "\t\t\trocket"
+msgstr "\t\t\traketgevär"
+
+#: config/menus/editing.cfg:696
+msgid "\tkey Alt"
+msgstr "\tAlt"
+
+#: config/menus/editing.cfg:693
+msgid "\tkey F2"
+msgstr "\tF2"
+
+#: config/menus/editing.cfg:695
+msgid "\tkey P"
+msgstr "\tP"
+
+#: engine/main.cpp:416
+#, c-format
+msgid "\fr%d bit color buffer not supported - disabling"
+msgstr "\\fr%d bit color buffer stöds ej - avaktiverar"
+
+#: engine/main.cpp:417
+#, c-format
+msgid "\fr%d bit z-buffer not supported - disabling"
+msgstr "\fr%d bit z-buffer stöds ej - avaktiverar"
+
+#: engine/main.cpp:419
+#, c-format
+msgid "\fr%dx anti-aliasing not supported - disabling"
+msgstr "\fr%dx anti-aliasing stöds ej - avaktiverar"
+
+#: engine/main.cpp:418
+msgid "\frStencil buffer not supported - disabling"
+msgstr "\frStencil buffer stöds ej - avaktiverar"
+
+#: engine/main.cpp:295
+#, c-format
+msgid "\frcould not set gamma: %s"
+msgstr "\frkunde ej sätta gamma: %s"
+
+#: engine/main.cpp:908
+#, c-format
+msgid "\frunknown display option %c"
+msgstr "\frokänd display-inställning %c"
+
+#: config/menus/editing.cfg:697
+msgid " \tscroll mouse wheel"
+msgstr " \tskrolla mushjulet"
+
+#: engine/main.cpp:697
+#, c-format
+msgid ""
+"%s Win32 Exception: 0x%x [0x%x]\n"
+"\n"
+msgstr ""
+"%s Win32 Undantag: 0x%x [0x%x]\n"
+"\n"
+
+#: engine/main.cpp:134
+#, c-format
+msgid "%s: Error"
+msgstr "%s: Fel"
+
+#: config/menus/editing.cfg:590
+#, perl-format
+msgid "50% gloss (subtle)"
+msgstr "50% glans (subtilt)"
+
+#: engine/main.cpp:164
+#, c-format
+msgid "Error: Fatal signal %d (Unknown Error)"
+msgstr "Fel: Fatal signal %d (Okänt Fel)"
+
+#: engine/main.cpp:154
+#, c-format
+msgid "Fatal signal %d (Aborted)"
+msgstr "Fatal signal %d (Avbröts)"
+
+#: engine/main.cpp:162
+#, c-format
+msgid "Fatal signal %d (Alarm)"
+msgstr "Fatal signal %d (Larm)"
+
+#: engine/main.cpp:161
+#, c-format
+msgid "Fatal signal %d (Broken Pipe)"
+msgstr "Fatal signal %d (Brutet Rör)"
+
+#: engine/main.cpp:155
+#, c-format
+msgid "Fatal signal %d (Floating-point Exception)"
+msgstr "Fatal signal %d (Flyttals-undantag)"
+
+#: engine/main.cpp:153
+#, c-format
+msgid "Fatal signal %d (Illegal Instruction)"
+msgstr "Fatal signal %d (Illegal Instruktion)"
+
+#: engine/main.cpp:160
+#, c-format
+msgid "Fatal signal %d (Killed)"
+msgstr "Fatal signal %d (Erhöll KILL-signal)"
+
+#: engine/main.cpp:159
+#, c-format
+msgid "Fatal signal %d (Quit)"
+msgstr "Fatal signal %d (Avslutad)"
+
+#: engine/main.cpp:156
+#, c-format
+msgid "Fatal signal %d (Segmentation Violation)"
+msgstr "Fatal signal %d (Segmenteringsfel)"
+
+#: engine/main.cpp:157
+#, c-format
+msgid "Fatal signal %d (Terminated)"
+msgstr "Fatal signal %d (Erhöll TERM-signal)"
+
+#: engine/main.cpp:152
+#, c-format
+msgid "Interrupt signal %d (Exiting)"
+msgstr "Avslutande signal %d (Avslutar)"
+
+#: config/menus/main.cfg:87
+msgid "Loading.."
+msgstr "Laddar.."
+
+#: config/menus/main.cfg:89
+msgid "Please wait.."
+msgstr "Var god vänta.."
+
+#: config/menus/editing.cfg:870
+msgid "Quick Commands:"
+msgstr "Snabbkommandon:"
+
+#: engine/main.cpp:413
+#, c-format
+msgid "Unable to create OpenGL screen: %s"
+msgstr "Kunde inte skapa OpenGL skärm: %s"
+
+#: engine/main.cpp:925
+msgid "Unable to initialise network module"
+msgstr "Kunde inte initiera nätverksmudul"
+
+#: engine/main.cpp:946
+#, c-format
+msgid "Unable to initialize SDL: %s"
+msgstr "Kunde inte intiera SDL: %s"
+
+#: config/menus/main.cfg:89
+msgid "Unknown"
+msgstr "Okänd"
+
+#: config/menus/main.cfg:89
+msgid "^faby"
+msgstr "^faav"
+
+#: config/menus/main.cfg:92
+msgid "^faon: ^fw%1:[%2]"
+msgstr "^fapå: ^fw%1:[%2]"
+
+#: config/menus/editing.cfg:673
+msgid "^fgblend mode:^fw"
+msgstr "^fgblend-läge:^fw"
+
+#: config/menus/editing.cfg:773
+msgid "^fo/cloudlayer ^fyfolder/filename"
+msgstr "^fo/cloudlayer ^fymapp/filnamn"
+
+#: config/menus/editing.cfg:512
+msgid "^fo/entlink ^fw cycles link modes of selected ents"
+msgstr "^fo/entlink ^fw cyklar länkningslägen för markerade entiteter"
+
+#: config/menus/editing.cfg:757
+msgid "^fo/skybox ^fyfolder/filename"
+msgstr "^fo/skybox ^fymapp/filnamn"
+
+#: config/menus/editing.cfg:655
+msgid "^fo/vlayer ^fy# ^fw(slot number)"
+msgstr "^fo/vlayer ^fy# ^fw(slot-nummer)"
+
+#: config/menus/editing.cfg:564
+msgid "^fo/vrotate ^fy# ^fy(1-3 rotate, 4-5 flip)"
+msgstr "^fo/vrotate ^fy# ^fy(1-3 rotera, 4-5 vänd)"
+
+#: config/menus/editing.cfg:662
+msgid "^foADD ^fwabove brush"
+msgstr "^foLÄGG TILL ^fwpensel ovan"
+
+#: config/menus/editing.cfg:493
+msgid "^foCLEAR MAP ^fwand begin a new one ^fr(Warning!)"
+msgstr "^foRENSA BANA ^fwoch starta en ny ^fr(Varning!)"
+
+#: config/menus/editing.cfg:683
+msgid "^foCLEAR ^fwBlendmap"
+msgstr "^foRENSA ^fwBlendmap"
+
+#: config/menus/editing.cfg:709
+msgid "^foCLEAR ^fwall textures from map cfg"
+msgstr "^foRENSA ^fväggtexturer från banans cfg"
+
+#: config/menus/editing.cfg:708
+msgid "^foCLEAR ^fwall unused textures from map cfg"
+msgstr "^foRENSA ^fwalla oanvända texturer från banans cfg"
+
+#: config/menus/editing.cfg:858
+msgid "^foCREATE"
+msgstr "^foSKAPA"
+
+#: config/menus/editing.cfg:710
+msgid "^foLOAD ^fwdefault texture package to map cfg (reload map required)"
+msgstr ""
+"^foLÄS IN ^fwstandard texturpaket till banans cfg (återinläsning av banan "
+"krävs)"
+
+#: config/menus/editing.cfg:491
+msgid "^foOPEN ^fwan existing map"
+msgstr "^foÖPPNA ^fwen existerande bana"
+
+#: config/menus/editing.cfg:663
+msgid "^foREMOVE ^fwabove brush"
+msgstr "^foTA BORT ^fwpensel ovan"
+
+#: config/menus/editing.cfg:777
+msgid "^foREMOVE ^fwcloudlayer"
+msgstr "^foTA BORT ^fwmolnlager"
+
+#: config/menus/editing.cfg:761
+msgid "^foREMOVE ^fwskybox"
+msgstr "^foTA BORT ^fwhimmelsbox"
+
+#: config/menus/editing.cfg:731
+msgid "^foRESET ^fwambient to default"
+msgstr "^foÅTERSTÄLL ^fwambient-ljus till standard"
+
+#: config/menus/editing.cfg:786
+msgid "^foRESET ^fwcloud color"
+msgstr "^foÅTERSTÄLL ^fwmolnfärg"
+
+#: config/menus/editing.cfg:723
+msgid "^foRESET ^fwenvironment to default"
+msgstr "^foÅTERSTÄLL ^fwmiljö-ljus till standard"
+
+#: config/menus/editing.cfg:754
+msgid "^foRESET ^fwfog color to default"
+msgstr "^foÅTERSTÄLL ^fwdimljus till standard"
+
+#: config/menus/editing.cfg:747
+msgid "^foRESET ^fwfog distance"
+msgstr "^foÅTERSTÄLL ^fwdimavstånd"
+
+#: config/menus/editing.cfg:770
+msgid "^foRESET ^fwsky color"
+msgstr "^foÅTERSTÄLL ^fwhimmelsfärg"
+
+#: config/menus/editing.cfg:739
+msgid "^foRESET ^fwskylight to default"
+msgstr "^foÅTERSTÄLL ^fwhimmelsljus till standard"
+
+#: config/menus/editing.cfg:576 config/menus/editing.cfg:630
+#: config/menus/editing.cfg:644
+msgid "^foRESET ^fwto 0"
+msgstr "^foÅTERSTÄLL ^fwtill 0"
+
+#: config/menus/editing.cfg:593 config/menus/editing.cfg:607
+msgid "^foRESET ^fwto 100%"
+msgstr "^foÅTERSTÄLL ^fwtill 100%"
+
+#: config/menus/editing.cfg:617
+msgid "^foRESET ^fwto default"
+msgstr "^foÅTERSTÄLL ^fwtill standard"
+
+#: config/menus/editing.cfg:489
+msgid "^foREVERT ^fwto last saved version of @savemap_name"
+msgstr "^foÅTERSTÄLL ^fwtill senast sparade version av @savemap_name"
+
+#: config/menus/editing.cfg:152
+msgid "^foSAVE ^fwmap as filename"
+msgstr "^foSPARA ^fwbana som filnamn"
+
+#: config/menus/editing.cfg:813
+msgid "^foplayer vars"
+msgstr "^fospelarvariabler"
+
+#: config/menus/main.cfg:143
+msgid "about"
+msgstr "om"
+
+#: config/menus/main.cfg:40
+msgid "access commands to use while editing a map"
+msgstr "se kommandon för att använda vid redigering av en bana"
+
+#: config/menus/editing.cfg:891
+msgid "aiclip\t\t\t\t\t\tkey Numpad 7"
+msgstr "aiclip\t\t\t\t\t\tNumpad 7"
+
+#: config/menus/editing.cfg:885
+msgid "air\t\t\t\t\t\t\tkey Numpad 1"
+msgstr "air\t\t\t\t\t\t\tNumpad 1"
+
+#: config/menus/editing.cfg:886
+msgid "alpha\t\t\t\t\t\tkey Numpad 2"
+msgstr "alpha\t\t\t\t\t\tNumpad 2"
+
+#: config/menus/editing.cfg:615
+msgid "another dimension"
+msgstr "extra dimension"
+
+#: engine/main.cpp:198
+msgid "anti-aliasing"
+msgstr "kantutjämning"
+
+#: config/menus/editing.cfg:654
+msgid "assign a blend layer to selected texture:"
+msgstr ""
+
+#: config/menus/editing.cfg:500
+msgid "black"
+msgstr "svart"
+
+#: config/menus/editing.cfg:751
+msgid "black fog (darkness)"
+msgstr ""
+
+#: config/menus/editing.cfg:675
+msgid "blend mode off"
+msgstr ""
+
+#: config/menus/editing.cfg:501 config/menus/editing.cfg:537
+#: config/menus/editing.cfg:601 config/menus/editing.cfg:849
+msgid "blue"
+msgstr "blå"
+
+#: config/menus/editing.cfg:585
+msgid "blue gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:856
+msgid "bright"
+msgstr ""
+
+#: engine/main.cpp:989
+msgid "cannot find data files"
+msgstr "kan inte hitta datafiler"
+
+#: config/menus/editing.cfg:108
+msgid "claim privileges.."
+msgstr "verifiera privilegier.."
+
+#: config/menus/main.cfg:58
+msgid "click on an activity to start"
+msgstr "klicka på en aktivitet för att börja"
+
+#: config/menus/editing.cfg:889
+msgid "clip\t\t\t\t\t\t\tkey Numpad 5"
+msgstr "clip\t\t\t\t\t\t\tNumpad 5"
+
+#: config/menus/main.cfg:56
+msgid "closes Red Eclipse"
+msgstr "stänger Red Eclipse"
+
+#: engine/main.cpp:195
+msgid "color depth"
+msgstr "färgdjup"
+
+#: config/menus/editing.cfg:735
+msgid "cool skylight"
+msgstr ""
+
+#: config/menus/editing.cfg:227
+msgid "copy"
+msgstr "kopiera"
+
+#: config/menus/editing.cfg:65
+msgid "copy attributes from currently selected entity"
+msgstr "kopiera attribut från nuvarande markerad entitet"
+
+#: engine/main.cpp:29
+msgid "could not create blank cursor"
+msgstr "kunde inte skapa blank markör"
+
+#: engine/main.cpp:982
+msgid "could not find core textures"
+msgstr "kunde inte hitta bastexturer"
+
+#: config/menus/editing.cfg:844
+msgid "create a sunlight entity          "
+msgstr ""
+
+#: config/menus/editing.cfg:199
+msgid "create actor"
+msgstr "skapa aktör"
+
+#: config/menus/editing.cfg:198
+msgid "create affinity (flag, bomb)"
+msgstr "skapa affinitet (flagga, bomb)"
+
+#: config/menus/editing.cfg:201
+msgid "create checkpoint"
+msgstr "skapa kontrollpunkt"
+
+#: config/menus/editing.cfg:192
+msgid "create light.."
+msgstr "skapa ljus.."
+
+#: config/menus/editing.cfg:193
+msgid "create lightfx.."
+msgstr "skapa ljuseffekt.."
+
+#: config/menus/editing.cfg:195
+msgid "create mapmodel"
+msgstr "skapa banmodell"
+
+#: config/menus/editing.cfg:523
+msgid "create new sound"
+msgstr "skapa nytt ljud"
+
+#: config/menus/editing.cfg:522
+msgid "create new teleport"
+msgstr "skapa ny teleport"
+
+#: config/menus/editing.cfg:524
+msgid "create new trigger"
+msgstr "skapa ny händelseutlösare"
+
+#: config/menus/editing.cfg:191
+msgid "create playerstart"
+msgstr "skapa spelarstart"
+
+#: config/menus/editing.cfg:197
+msgid "create pusher"
+msgstr "skapa knuff-objekt"
+
+#: config/menus/editing.cfg:196
+msgid "create sound"
+msgstr "skapa ljud"
+
+#: config/menus/editing.cfg:194
+msgid "create teleport.."
+msgstr "skapa teleport.."
+
+#: config/menus/editing.cfg:200
+msgid "create trigger"
+msgstr "skapa händelseutlösare"
+
+#: config/menus/editing.cfg:190
+msgid "create weapon.."
+msgstr "skapa wapen.."
+
+#: config/menus/editing.cfg:670
+msgid "cycle blend paint modes"
+msgstr "cykla blend paint-lägen"
+
+#: config/menus/editing.cfg:514
+msgid "cycle linkmode +\t\t\tkey L"
+msgstr "cykla länkningsläge +\t\t\tL"
+
+#: config/menus/editing.cfg:677
+msgid "cycle paint brush: "
+msgstr ""
+
+#: config/menus/editing.cfg:542
+msgid "dark"
+msgstr ""
+
+#: config/menus/editing.cfg:892
+msgid "death\t\t\t\t\t\tkey Numpad 8"
+msgstr "death\t\t\t\t\t\tNumpad 8"
+
+#: config/menus/editing.cfg:792
+msgid "default"
+msgstr "standard"
+
+#: config/menus/editing.cfg:231
+msgid "delete selected ents / geometry"
+msgstr "ta bort markerade entiteter / geometri"
+
+#: engine/main.cpp:196
+msgid "depth-buffer precision"
+msgstr "depth-buffer precision"
+
+#: config/menus/editing.cfg:183
+msgid "deselect all ents"
+msgstr "avmarkera alla entiteter"
+
+#: engine/main.cpp:422
+msgid "disabled"
+msgstr "inaktiverad"
+
+#: config/menus/main.cfg:15
+msgid "disconnect"
+msgstr "koppla från"
+
+#: config/menus/main.cfg:44
+msgid "disconnects your current connection"
+msgstr "koppla från din aktuella anslutning"
+
+#: config/menus/main.cfg:46
+msgid "displays the current votes"
+msgstr "visar aktuell votering"
+
+#: config/menus/main.cfg:36
+msgid "displays the server browser for other online matches"
+msgstr "visar serverlistan för andra matcher online"
+
+#: config/menus/main.cfg:52
+msgid "edit gameplay and weapon variables"
+msgstr "ändra spel- och vapenvariabler"
+
+#: config/menus/editing.cfg:184
+msgid "edit selected ent"
+msgstr "redigera markerad entitet"
+
+#: config/menus/main.cfg:50
+msgid "edit your configuration options"
+msgstr "ändra dina konfigurationsalternativ"
+
+#: config/menus/main.cfg:38
+msgid "edit your name, colour, and model type"
+msgstr "ändra ditt namn, din färg, och modelltyp"
+
+#: config/menus/main.cfg:12
+msgid "editing"
+msgstr "redigering"
+
+#: engine/main.cpp:422
+msgid "enabled"
+msgstr "aktiverad"
+
+#: config/menus/editing.cfg:106
+msgid "environment settings.."
+msgstr "miljöinställningar.."
+
+#: config/menus/editing.cfg:721
+msgid "evening"
+msgstr ""
+
+#: config/menus/editing.cfg:614
+msgid "extreme"
+msgstr ""
+
+#: engine/main.cpp:480
+msgid "failed to reload core textures"
+msgstr "kunde ej läsa om bastexturer"
+
+#: config/menus/editing.cfg:178
+msgid "find ents"
+msgstr "hitta entiteter"
+
+#: config/menus/main.cfg:19
+msgid "find servers"
+msgstr "hitta servrar"
+
+#: config/menus/editing.cfg:467 config/menus/editing.cfg:801
+msgid "flamer"
+msgstr ""
+
+#: config/menus/editing.cfg:613
+msgid "flat"
+msgstr ""
+
+#: config/menus/editing.cfg:574
+msgid "flip horizontal"
+msgstr ""
+
+#: config/menus/editing.cfg:573
+msgid "flip vertical"
+msgstr "vänd vertikalt"
+
+#: config/menus/editing.cfg:182
+msgid "focus on selected ent"
+msgstr "fokusera på markerad entitet"
+
+#: config/menus/editing.cfg:745
+msgid "fog distance distant"
+msgstr ""
+
+#: config/menus/editing.cfg:744
+msgid "fog distance far"
+msgstr ""
+
+#: config/menus/editing.cfg:746
+msgid "fog distance near"
+msgstr ""
+
+#: config/menus/editing.cfg:104
+msgid "full calculate lights (full)"
+msgstr "full beräkning av ljus (full)"
+
+#: engine/main.cpp:251
+msgid "fullscreen"
+msgstr "helskärm"
+
+#: config/menus/editing.cfg:681
+msgid "generate preview"
+msgstr ""
+
+#: config/menus/editing.cfg:111
+msgid "get map from server"
+msgstr "hämta bana från server"
+
+#: config/menus/main.cfg:54
+msgid "gets some help!"
+msgstr "få lite hjälp!"
+
+#: config/menus/editing.cfg:503 config/menus/editing.cfg:536
+#: config/menus/editing.cfg:600 config/menus/editing.cfg:851
+msgid "green"
+msgstr "grön"
+
+#: config/menus/editing.cfg:753
+msgid "green fog (gas)"
+msgstr ""
+
+#: config/menus/editing.cfg:584
+msgid "green gloss"
+msgstr "grön glans"
+
+#: config/menus/editing.cfg:470
+msgid "grenade"
+msgstr "granat"
+
+#: config/menus/editing.cfg:752
+msgid "grey fog (haze)"
+msgstr ""
+
+#: config/menus/editing.cfg:727
+msgid "grey shadows"
+msgstr ""
+
+#: config/menus/editing.cfg:879 config/menus/main.cfg:25
+msgid "help"
+msgstr "hjälp"
+
+#: config/menus/editing.cfg:816
+msgid "impulse freestyle (default 1)"
+msgstr ""
+
+#: config/menus/editing.cfg:154
+msgid "increase mapsize (2x)"
+msgstr "öka banstorlek (2x)"
+
+#: engine/main.cpp:483
+msgid "initializing..."
+msgstr "initierar..."
+
+#: config/menus/editing.cfg:58
+msgid "inside selection"
+msgstr "inre markering"
+
+#: config/menus/main.cfg:22
+msgid "irc windows"
+msgstr "irc fönster"
+
+#: config/menus/editing.cfg:815
+msgid "jumpspeed (default 100)"
+msgstr ""
+
+#: config/menus/editing.cfg:167
+msgid "key F8"
+msgstr "F8"
+
+#: config/menus/editing.cfg:893
+msgid "ladder\t\t\t\t\t\tkey Numpad 9"
+msgstr "ladder\t\t\t\t\t\tNumpad 9"
+
+#: config/menus/editing.cfg:888
+msgid "lava\t\t\t\t\t\t\tkey Numpad 4"
+msgstr "lava\t\t\t\t\t\t\tNumpad 4"
+
+#: config/menus/editing.cfg:846
+msgid "light radius:"
+msgstr ""
+
+#: config/menus/editing.cfg:516
+msgid "link modes:"
+msgstr "länkningslägen:"
+
+#: config/menus/editing.cfg:180
+msgid "link selected ents (teleport, sound, trigger)"
+msgstr "länka markerade entiteter (teleport, ljud, händelseutlösare)"
+
+#: config/menus/main.cfg:144
+msgid "live support"
+msgstr "live support"
+
+#: engine/main.cpp:1002 engine/main.cpp:1003
+msgid "loading config.."
+msgstr "läser in konfig.."
+
+#: engine/main.cpp:987
+msgid "loading defaults.."
+msgstr "läser in standard.."
+
+#: engine/main.cpp:924
+msgid "loading enet.."
+msgstr "läser in enet.."
+
+#: engine/main.cpp:929
+msgid "loading game.."
+msgstr "läser in spel.."
+
+#: engine/main.cpp:994 engine/main.cpp:995
+msgid "loading gl effects.."
+msgstr "läser in gl-effekter.."
+
+#: engine/main.cpp:977
+msgid "loading gl.."
+msgstr "läser in gl.."
+
+#: engine/main.cpp:1014 engine/main.cpp:1015
+msgid "loading main.."
+msgstr "läser in bas.."
+
+#: engine/main.cpp:1007 engine/main.cpp:1008
+msgid "loading required data.."
+msgstr "läser in nödvändig data.."
+
+#: engine/main.cpp:932
+msgid "loading sdl.."
+msgstr "läser in sdl.."
+
+#: engine/main.cpp:984
+msgid "loading sound.."
+msgstr "läser in ljud.."
+
+#: engine/main.cpp:948
+#, fuzzy
+msgid "loading video.."
+msgstr "läser in diverse video..."
+
+#: engine/main.cpp:998 engine/main.cpp:999
+msgid "loading world.."
+msgstr "läser in värld..."
+
+#: engine/main.cpp:822
+msgid "loading.."
+msgstr "läser in..."
+
+#: config/menus/editing.cfg:791
+msgid "low"
+msgstr "låg"
+
+#: config/menus/editing.cfg:921
+msgid "materials"
+msgstr "material"
+
+#: config/menus/editing.cfg:814
+msgid "maximum inventory (default 2)"
+msgstr ""
+
+#: config/menus/editing.cfg:471
+msgid "mine"
+msgstr ""
+
+#: config/menus/editing.cfg:230
+msgid "mirror geometry per selection orientation"
+msgstr "spegla geometri efter markeringsorientering"
+
+#: config/menus/editing.cfg:720
+msgid "morning"
+msgstr ""
+
+#: config/menus/editing.cfg:875
+msgid "new entity"
+msgstr ""
+
+#: config/menus/editing.cfg:877
+msgid "newmap"
+msgstr ""
+
+#: config/menus/editing.cfg:719
+msgid "night"
+msgstr ""
+
+#: engine/main.cpp:990
+msgid "no default font specified"
+msgstr "ingen standardfont vald"
+
+#: config/menus/editing.cfg:591
+msgid "no gloss (matte)"
+msgstr ""
+
+#: config/menus/editing.cfg:890
+msgid "noclip\t\t\t\t\t\tkey Numpad 6"
+msgstr "noclip\t\t\t\t\t\tNumpad 6"
+
+#: config/menus/editing.cfg:790
+msgid "none"
+msgstr ""
+
+#: config/menus/editing.cfg:56
+msgid "off"
+msgstr "av"
+
+#: config/menus/main.cfg:20
+msgid "offline practice"
+msgstr "träning offline"
+
+#: config/menus/editing.cfg:641
+msgid "offset X +"
+msgstr ""
+
+#: config/menus/editing.cfg:642
+msgid "offset X -"
+msgstr ""
+
+#: config/menus/editing.cfg:638
+msgid "offset Y +"
+msgstr ""
+
+#: config/menus/editing.cfg:639
+msgid "offset Y -"
+msgstr ""
+
+#: config/menus/editing.cfg:99
+msgid "open console.."
+msgstr "öppna konsol.."
+
+#: config/menus/editing.cfg:98
+msgid "open materials menu.."
+msgstr "öppna materialmeny.."
+
+#: config/menus/editing.cfg:96 config/menus/editing.cfg:667
+msgid "open textures menu.."
+msgstr "öppna texturmeny.."
+
+#: config/menus/editing.cfg:97
+msgid "open this edit menu.."
+msgstr "öppna denna redigeringsmeny"
+
+#: config/menus/editing.cfg:101
+msgid "optimize geometry"
+msgstr "optimera geometri"
+
+#: config/menus/editing.cfg:874
+msgid "optimize map"
+msgstr "optimera bana"
+
+#: config/menus/main.cfg:23
+msgid "options"
+msgstr "inställningar"
+
+#: config/menus/editing.cfg:538 config/menus/editing.cfg:602
+msgid "orange"
+msgstr ""
+
+#: config/menus/editing.cfg:586
+msgid "orange gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:60
+msgid "outside selection"
+msgstr "yttre markering"
+
+#: config/menus/editing.cfg:228
+msgid "paste"
+msgstr "klistra in"
+
+#: config/menus/editing.cfg:102
+msgid "patch existing lightmap (patch)"
+msgstr "uppdatera existerande ljusinformation (patch)"
+
+#: config/menus/editing.cfg:468 config/menus/editing.cfg:802
+msgid "plasma"
+msgstr "plasma"
+
+#: config/menus/main.cfg:19
+msgid "play online"
+msgstr "spela online"
+
+#: config/menus/main.cfg:95
+msgid "playing: [ ^fs^fa%1^fS ]"
+msgstr "spelar: [ ^fs^fa%1^fS ]"
+
+#: engine/main.cpp:961 engine/main.cpp:992
+msgid "please wait.."
+msgstr "var god vänta.."
+
+#: config/menus/main.cfg:48
+msgid "practice on"
+msgstr "träna på"
+
+#: config/menus/main.cfg:8
+msgid "profile"
+msgstr "profil"
+
+#: engine/main.cpp:830
+#, c-format
+msgid "progressing [%.2f%%]"
+msgstr "fortsätter [%.2f%%]"
+
+#: config/menus/editing.cfg:540 config/menus/editing.cfg:604
+#: config/menus/editing.cfg:853
+msgid "purple"
+msgstr ""
+
+#: config/menus/editing.cfg:588
+msgid "purple gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:728
+msgid "purple shadows"
+msgstr ""
+
+#: config/menus/editing.cfg:103
+msgid "quick calculate lights (preview)"
+msgstr "snabb beräkning av ljus (preview)"
+
+#: config/menus/editing.cfg:717
+msgid "quick global lighting:"
+msgstr ""
+
+#: config/menus/editing.cfg:873
+msgid "quicklight"
+msgstr ""
+
+#: config/menus/main.cfg:27
+msgid "quit"
+msgstr "avsluta"
+
+#: config/menus/editing.cfg:502 config/menus/editing.cfg:535
+#: config/menus/editing.cfg:599 config/menus/editing.cfg:850
+msgid "red"
+msgstr "röd"
+
+#: config/menus/editing.cfg:583
+msgid "red gloss"
+msgstr ""
+
+#: engine/main.cpp:438
+msgid "resetting OpenGL.."
+msgstr "återställer OpenGL.."
+
+#: config/menus/editing.cfg:469
+msgid "rifle"
+msgstr "rifle"
+
+#: config/menus/editing.cfg:472
+msgid "rocket"
+msgstr "raketgevär"
+
+#: config/menus/editing.cfg:570
+msgid "rotate 180"
+msgstr ""
+
+#: config/menus/editing.cfg:571
+msgid "rotate 270"
+msgstr ""
+
+#: config/menus/editing.cfg:569
+msgid "rotate 90"
+msgstr ""
+
+#: config/menus/editing.cfg:566
+msgid "rotation/flip +"
+msgstr ""
+
+#: config/menus/editing.cfg:567
+msgid "rotation/flip -"
+msgstr ""
+
+#: engine/main.cpp:193 engine/main.cpp:194 engine/main.cpp:272
+msgid "screen resolution"
+msgstr "skärmupplösning"
+
+#: config/menus/editing.cfg:627
+msgid "scroll X +"
+msgstr ""
+
+#: config/menus/editing.cfg:628
+msgid "scroll X -"
+msgstr ""
+
+#: config/menus/editing.cfg:624
+msgid "scroll Y +"
+msgstr ""
+
+#: config/menus/editing.cfg:625
+msgid "scroll Y -"
+msgstr ""
+
+#: config/menus/main.cfg:48
+msgid "select a map/mode combination to %1"
+msgstr "välj en bana/läge kombination för att %1"
+
+#: config/menus/editing.cfg:186
+msgid "select all ents inside selection area"
+msgstr "välj alla entiteter i markerat område"
+
+#: config/menus/editing.cfg:187
+msgid "select all ents matching selected"
+msgstr "välj alla entiteter som matchar nuvarande markerad"
+
+#: config/menus/editing.cfg:73
+msgid "select all valid entities"
+msgstr "välj alla giltiga entiteter"
+
+#: config/menus/editing.cfg:110
+msgid "send map to server"
+msgstr "skicka bana till server"
+
+#: config/menus/editing.cfg:785
+msgid "set cloud color to black"
+msgstr "sätt svart molnfärg"
+
+#: config/menus/editing.cfg:784
+msgid "set cloud color to blue"
+msgstr "sätt blå molnfärg"
+
+#: config/menus/editing.cfg:781
+msgid "set cloud color to orange"
+msgstr "sätt orange molnfärg"
+
+#: config/menus/editing.cfg:783
+msgid "set cloud color to red"
+msgstr "sätt röd molnfärg"
+
+#: config/menus/editing.cfg:782
+msgid "set cloud color to yellow"
+msgstr "sätt gul molnfärg"
+
+#: config/menus/editing.cfg:774
+msgid "set clouds to clouds01"
+msgstr "sätt molntyp till clouds01"
+
+#: config/menus/editing.cfg:775
+msgid "set clouds to clouds02"
+msgstr "sätt molntyp till clouds02"
+
+#: config/menus/editing.cfg:776
+msgid "set clouds to clouds03"
+msgstr "sätt molntyp till clouds03"
+
+#: config/menus/editing.cfg:147
+msgid "set map author.."
+msgstr "ställ in banans skapare.."
+
+#: config/menus/editing.cfg:149
+msgid "set map filename"
+msgstr "ställ in banans filnamn"
+
+#: config/menus/editing.cfg:145
+msgid "set map title.."
+msgstr "ställ in banans titel.."
+
+#: config/menus/editing.cfg:769
+msgid "set sky color to black"
+msgstr ""
+
+#: config/menus/editing.cfg:768
+msgid "set sky color to blue"
+msgstr ""
+
+#: config/menus/editing.cfg:765
+msgid "set sky color to orange"
+msgstr ""
+
+#: config/menus/editing.cfg:767
+msgid "set sky color to red"
+msgstr ""
+
+#: config/menus/editing.cfg:766
+msgid "set sky color to yellow"
+msgstr ""
+
+#: config/menus/editing.cfg:760
+msgid "set skybox to gradient"
+msgstr ""
+
+#: config/menus/editing.cfg:758
+msgid "set skybox to skyhigh"
+msgstr ""
+
+#: config/menus/editing.cfg:759
+msgid "set skybox to sunsetflat"
+msgstr ""
+
+#: config/menus/editing.cfg:38
+msgid "set the attributes below to search for"
+msgstr "ställ in attribut att söka efter nedan"
+
+#: config/menus/editing.cfg:465 config/menus/editing.cfg:799
+msgid "shotgun"
+msgstr ""
+
+#: config/menus/editing.cfg:818
+msgid "show all variables.."
+msgstr "^foåterställ alla spelvariabler"
+
+#: config/menus/editing.cfg:883
+msgid "show material volumes\t\t   key M"
+msgstr ""
+
+#: config/menus/main.cfg:16
+msgid "show votes"
+msgstr "visa votering"
+
+#: config/menus/main.cfg:42
+msgid "shows your open irc windows"
+msgstr "visa dina öppna irc-fönster"
+
+#: config/menus/editing.cfg:494
+msgid "size of new map"
+msgstr "storlek på ny bana"
+
+#: config/menus/editing.cfg:466 config/menus/editing.cfg:800
+msgid "smg"
+msgstr ""
+
+#: config/menus/editing.cfg:736
+msgid "soft skylight"
+msgstr ""
+
+#: config/menus/editing.cfg:156
+msgid "start new map"
+msgstr "starta ny bana"
+
+#: engine/main.cpp:197
+msgid "stencil-buffer precision"
+msgstr "stencil-buffer precision"
+
+#: config/menus/editing.cfg:464 config/menus/editing.cfg:798
+msgid "sword"
+msgstr ""
+
+#: config/menus/editing.cfg:113
+msgid "take screenshot"
+msgstr "ta en skärmbild"
+
+#: config/menus/editing.cfg:659
+msgid "texture slot number: "
+msgstr ""
+
+#: config/menus/editing.cfg:506
+msgid "toggle outline"
+msgstr "kontur på/av"
+
+#: config/menus/editing.cfg:94
+msgid "toggle walk / edit mode"
+msgstr "gå / redigeringsläge på/av"
+
+#: config/menus/editing.cfg:541 config/menus/editing.cfg:605
+#: config/menus/editing.cfg:854
+msgid "turquoise"
+msgstr ""
+
+#: config/menus/editing.cfg:589
+msgid "turquoise gloss"
+msgstr ""
+
+#: config/menus/editing.cfg:903
+msgid "type"
+msgstr "typ"
+
+#: config/menus/editing.cfg:41
+msgid "type\t"
+msgstr "typ\t"
+
+#: engine/main.cpp:693
+msgid "unknown type"
+msgstr "okänd typ"
+
+#: config/menus/main.cfg:24
+msgid "variables"
+msgstr "variabler"
+
+#: engine/main.cpp:200
+msgid "vertical sync"
+msgstr "vertikal synk"
+
+#: config/menus/main.cfg:48
+msgid "vote for"
+msgstr "votera på"
+
+#: config/menus/main.cfg:20
+msgid "vote map/mode"
+msgstr "votera bana/läge"
+
+#: engine/main.cpp:422
+#, c-format
+msgid "vsync is %s"
+msgstr "vsync är %s"
+
+#: config/menus/editing.cfg:737
+msgid "warm skylight"
+msgstr ""
+
+#: config/menus/editing.cfg:887
+msgid "water\t\t\t\t\t\tkey Numpad 3"
+msgstr "water\t\t\t\t\t\tNumpad 3"
+
+#: config/menus/editing.cfg:476
+msgid "weapon 2"
+msgstr "vapen 2"
+
+#: config/menus/editing.cfg:477
+msgid "weapon 3"
+msgstr "vapen 3"
+
+#: config/menus/editing.cfg:478
+msgid "weapon 4"
+msgstr "vapen 4"
+
+#: config/menus/editing.cfg:479
+msgid "weapon 5"
+msgstr "vapen 5"
+
+#: config/menus/editing.cfg:480
+msgid "weapon 6"
+msgstr "vapen 6"
+
+#: config/menus/editing.cfg:481
+msgid "weapon 7"
+msgstr "vapen 7"
+
+#: config/menus/editing.cfg:482
+msgid "weapon 8"
+msgstr "vapen 8"
+
+#: config/menus/editing.cfg:483
+msgid "weapon 9"
+msgstr "vapen 9"
+
+#: config/menus/editing.cfg:499 config/menus/editing.cfg:543
+#: config/menus/editing.cfg:848
+msgid "white"
+msgstr "vit"
+
+#: engine/main.cpp:251
+msgid "windowed"
+msgstr "fönsterläge"
+
+#: config/menus/editing.cfg:504 config/menus/editing.cfg:539
+#: config/menus/editing.cfg:603 config/menus/editing.cfg:852
+msgid "yellow"
+msgstr "gul"
+
+#: config/menus/editing.cfg:587
+msgid "yellow gloss"
+msgstr "gul glans"
+
+#~ msgid "\t\t\tplasma"
+#~ msgstr "\t\t\tplasma"
+
+#~ msgid " %1modified"
+#~ msgstr " %1förändrad"
+
+#~ msgid " ^faselected on "
+#~ msgstr " ^favald på "
+
+#~ msgid " ^faserver is not replying to queries"
+#~ msgstr " ^faserver svarar inte på anrop"
+
+#~ msgid " ^faserver is using"
+#~ msgstr " ^faserver använder"
+
+#~ msgid " ^favoted for on "
+#~ msgstr " ^favoterad på "
+
+#~ msgid " ^fy%1 ^faon ^fo%2"
+#~ msgstr " ^fy%1 ^fapå ^fo%2"
+
+#~ msgid "(effect OFF)"
+#~ msgstr "(effekt AV)"
+
+#~ msgid ""
+#~ "// automatically written on exit, DO NOT MODIFY\n"
+#~ "// modify settings in game\n"
+#~ msgstr ""
+#~ "// automatiskt genererad vid avslut ÄNDRA EJ\n"
+#~ "// ändra inställningar i spelet\n"
+
+#~ msgid "Based on Cube Engine 2"
+#~ msgstr "Baserad på Cube Engine 2"
+
+#~ msgid "Custom"
+#~ msgstr "Egen"
+
+#~ msgid "Player Information"
+#~ msgstr "Spelarinformation"
+
+#~ msgid "Please enter your details"
+#~ msgstr "Ange dina detaljer"
+
+#~ msgid "Red Eclipse Data"
+#~ msgstr "Red Eclipse Data"
+
+#~ msgid "Red Eclipse Engine"
+#~ msgstr "Red Eclipse Spelmotor"
+
+#~ msgid "TIP: "
+#~ msgstr "TIPS: "
+
+#~ msgid "[^fs^frreset^fS]"
+#~ msgstr "[^fs^fråterställ^fS]"
+
+#~ msgid "^custom map"
+#~ msgstr "^annan bana"
+
+#~ msgid "^fa^f(textures/question)random"
+#~ msgstr "^fa^f(textures/question)slumpmässig"
+
+#~ msgid "^fano current votes"
+#~ msgstr "^fainga aktuella voteringar"
+
+#~ msgid "^fano players online"
+#~ msgstr "^fainga spelare online"
+
+#~ msgid "^faplayer info not available"
+#~ msgstr "^faspelarinfo ej tillgängligt"
+
+#~ msgid "^fbauto sort"
+#~ msgstr "^fbauto-sortering"
+
+#~ msgid "^fc%1 ^fwplayer%2: "
+#~ msgstr "^fc%1 ^fwspelare%2: "
+
+#~ msgid "^fcdynamic sort"
+#~ msgstr "^fcdynamisk sortering"
+
+#~ msgid "^fcsearch lan"
+#~ msgstr "^fcsök på lan"
+
+#~ msgid "^fd[ ^fc%1 ^fwplayers on ^fc%2 ^fwof ^fc%3 ^fwserver%4 ^fd]"
+#~ msgstr "^fd[ ^fc%1 ^fwspelare på ^fc%2 ^fwav ^fc%3 ^fwserver%4 ^fd]"
+
+#~ msgid "^fd[ ^fc%1 ^fwvote%2 ^fd]"
+#~ msgstr "^fd[ ^fc%1 ^fwvotera%2 ^fd]"
+
+#~ msgid "^fd[ ^fwwaiting for slot ^fd] "
+#~ msgstr "^fd[ ^fwväntar på plats ^fd] "
+
+#~ msgid "^fgblob shadows "
+#~ msgstr "^fgblob-skuggor "
+
+#~ msgid "^fgdecals\t\t\t"
+#~ msgstr "^fgdekaler\t\t\t"
+
+#~ msgid "^fgdynamic lights\t\t"
+#~ msgstr "^fcdynamiska ljus\t\t"
+
+#~ msgid "^fgfix t-joints (world sparklies)"
+#~ msgstr "^fgfixera t-leder (world sparklies)"
+
+#~ msgid "^fgglass reflection"
+#~ msgstr "^fgglasreflektion"
+
+#~ msgid "^fgglow "
+#~ msgstr "^fgglans "
+
+#~ msgid "^fghigh quality "
+#~ msgstr "^fghög kvalitet "
+
+#~ msgid "^fglighting "
+#~ msgstr "^fgljus "
+
+#~ msgid "^fglow detail "
+#~ msgstr "^fglansdetalj "
+
+#~ msgid "^fglow quality "
+#~ msgstr "^fgglanskvalitet "
+
+#~ msgid "^fgmedium quality"
+#~ msgstr "^fgmediumkvalitet"
+
+#~ msgid "^fgmedium quality "
+#~ msgstr "^fgmediumkvalitet "
+
+#~ msgid "^fgok"
+#~ msgstr "^fgok"
+
+#~ msgid "^fgopen"
+#~ msgstr "^fgöppen"
+
+#~ msgid "^fgreflection "
+#~ msgstr "^fgreflektion "
+
+#~ msgid "^fgstart game"
+#~ msgstr "^fgstarta spelet"
+
+#~ msgid "^fgsubmit"
+#~ msgstr "^fgok"
+
+#~ msgid "^fgsubmit vote"
+#~ msgstr "^fgskicka votering"
+
+#~ msgid "^fgun"
+#~ msgstr "^fgo"
+
+#~ msgid "^fgupdate"
+#~ msgstr "^fguppdatera"
+
+#~ msgid "^fmlan connect"
+#~ msgstr "^fmanslut via lan"
+
+#~ msgid "^fmpriv"
+#~ msgstr "^fmpriv"
+
+#~ msgid "^fo/newent teleport ^fwlink teleports with ^fo/entlink ^fw(key L)"
+#~ msgstr "^fo/newent teleport ^fwlänka teleportrar med ^fo/entlink ^fw(L)"
+
+#~ msgid "^fo<prev"
+#~ msgstr "^fo<föreg."
+
+#~ msgid "^foGLSL only"
+#~ msgstr "^foGLSL endast"
+
+#~ msgid "^focancel"
+#~ msgstr "^foavbryt"
+
+#~ msgid "^focleanup list"
+#~ msgstr "^forensa lista"
+
+#~ msgid "^foclose window"
+#~ msgstr "^fostäng fönster"
+
+#~ msgid "^fodisconnect"
+#~ msgstr "^fokoppla från"
+
+#~ msgid "^foglare"
+#~ msgstr "^foglans"
+
+#~ msgid "^foglare\t\t\t\t"
+#~ msgstr "^foglans\t\t\t\t"
+
+#~ msgid "^fograss\t\t\t"
+#~ msgstr "^fogräs\t\t\t"
+
+#~ msgid "^fohigh quality "
+#~ msgstr "^fohög kvalitet "
+
+#~ msgid "^foincompatible"
+#~ msgstr "^foinkompatibel"
+
+#~ msgid "^fointense "
+#~ msgstr "^fointensiv "
+
+#~ msgid "^fomoderate "
+#~ msgstr "^fomedel "
+
+#~ msgid "^fomotion blur\t\t"
+#~ msgstr "^forörelseoskärpa\t\t"
+
+#~ msgid "^foreflection "
+#~ msgstr "^foreflektion "
+
+#~ msgid "^foreset all game variables"
+#~ msgstr "^foåterställ alla spelvariabler"
+
+#~ msgid "^founknown"
+#~ msgstr "^fookänd"
+
+#~ msgid "^founresponsive"
+#~ msgstr "^fooresponsiv"
+
+#~ msgid "^frfull"
+#~ msgstr "^frfull"
+
+#~ msgid "^frreset"
+#~ msgstr "^fråterställ"
+
+#~ msgid "^frthis is only available in team games"
+#~ msgstr "^frdetta är endast tillgängligt i lagspel"
+
+#~ msgid "^frthis is only available with arena"
+#~ msgstr "^frdetta är endast tillgängligt med arena"
+
+#, fuzzy
+#~ msgid "^frweapon selection is not currently available"
+#~ msgstr "^faspelarinfo ej tillgängligt"
+
+#~ msgid "^fwThere are no servers to display, maybe ^fgupdate ^fwthe list?"
+#~ msgstr "^fwDet finns inga servrar att visa, ^fgupdatera ^fwlistan?"
+
+#~ msgid "^fwThere are no votes currently pending, ^fgsubmit ^fwone yourself"
+#~ msgstr "^fwDet finns inga aktiva voteringar, ^fgstarta ^fwen egen"
+
+#~ msgid "^fw^f(%1) spectate"
+#~ msgstr "^fw^f(%1) åskåda"
+
+#~ msgid "^fwby "
+#~ msgstr "^fwav "
+
+#~ msgid "^fwmore"
+#~ msgstr "^fwtill"
+
+#~ msgid "^fwpassword ^fd= "
+#~ msgstr "^fwlösenord ^fd= "
+
+#~ msgid "^fwpri^fa/^fwalt"
+#~ msgstr "^fwpri^fa/^fwalt"
+
+#~ msgid "^fyclear vote"
+#~ msgstr "^fyrensa votering"
+
+#~ msgid "^fydynamic lights"
+#~ msgstr "^fcdynamiska ljus"
+
+#~ msgid "^fyglowy "
+#~ msgstr "^fyglansig "
+
+#~ msgid "^fyhigh quality "
+#~ msgstr "^fyhög kvalitet "
+
+#~ msgid "^fylock"
+#~ msgstr "^fylås"
+
+#~ msgid "^fymedium quality "
+#~ msgstr "^fymediumkvalitet "
+
+#~ msgid "^fynext>"
+#~ msgstr "^fynästa>"
+
+#~ msgid "^fyrefraction "
+#~ msgstr "^fyljusbrytning "
+
+#~ msgid "^fyreset selection"
+#~ msgstr "^fyåterställ markering"
+
+#~ msgid "^fysort now"
+#~ msgstr "^fysortera nu"
+
+#~ msgid "^fyswap"
+#~ msgstr "^fybyt"
+
+#~ msgid "^fzoynew version released! ^fwget it now from: ^fcwww.redeclipse.net"
+#~ msgstr "^fzoyny version släppt! ^fwfå den nu från: ^fcwww.redeclipse.net"
+
+#~ msgid "a ^fwnewer"
+#~ msgstr "ett ^fwnyare"
+
+#~ msgid "address  "
+#~ msgstr "adress  "
+
+#~ msgid "alt-attack"
+#~ msgstr "alt-attack"
+
+#~ msgid "an ^fdolder"
+#~ msgstr "ett ^fdäldre"
+
+#~ msgid "and^fy"
+#~ msgstr "och^fy"
+
+#~ msgid "animation\t\t\t"
+#~ msgstr "animering\t\t\t"
+
+#~ msgid "automatically use saved loadout"
+#~ msgstr "använd automatisk sparad uppsättning"
+
+#~ msgid "available maps"
+#~ msgstr "tillgängliga banor"
+
+#~ msgid "backward"
+#~ msgstr "bakåt"
+
+#~ msgid "bounce geom"
+#~ msgstr "studs geom"
+
+#, fuzzy
+#~ msgid "bounce plyr"
+#~ msgstr "studs pers"
+
+#, fuzzy
+#~ msgid "bounce shot"
+#~ msgstr "studs geom"
+
+#~ msgid "channel  "
+#~ msgstr "kanal  "
+
+#~ msgid "choose loadout weapons"
+#~ msgstr "välj vapenuppsättning"
+
+#~ msgid "choose team"
+#~ msgstr "välj lag"
+
+#~ msgid "claim privileges"
+#~ msgstr "verifiera privilegier"
+
+#~ msgid "clear"
+#~ msgstr "rensa"
+
+#~ msgid "cmd input"
+#~ msgstr "konsollinmatning"
+
+#~ msgid "collision:"
+#~ msgstr "kollision:"
+
+#~ msgid "color depth (default: 0)"
+#~ msgstr "färgdjup (standard: 0)"
+
+#~ msgid "connect"
+#~ msgstr "anslut"
+
+#~ msgid "continue"
+#~ msgstr "fortsätt"
+
+#~ msgid "create a new teleport"
+#~ msgstr "skapa teleport.."
+
+#~ msgid "destroy"
+#~ msgstr "förstör"
+
+#~ msgid "exec"
+#~ msgstr "kör"
+
+#~ msgid "fav"
+#~ msgstr "fav"
+
+#~ msgid "female"
+#~ msgstr "feminin"
+
+#~ msgid "flak collision:"
+#~ msgstr "flak-kollision:"
+
+#~ msgid "forward"
+#~ msgstr "framåt"
+
+#~ msgid "frequency"
+#~ msgstr "frekvens"
+
+#~ msgid "game select"
+#~ msgstr "spelval"
+
+#~ msgid "gamemode"
+#~ msgstr "spelläge"
+
+#~ msgid "hit owner"
+#~ msgstr "träffa ägare"
+
+#~ msgid "hover over a mode or mutator to see its description"
+#~ msgstr ""
+#~ "vila markören på ett läge eller variation för att se dess beskrivning"
+
+#~ msgid "impact geom"
+#~ msgstr "träffa geom"
+
+#, fuzzy
+#~ msgid "impact plyr"
+#~ msgstr "träffa pers"
+
+#~ msgid "impact shot"
+#~ msgstr "träffa skott "
+
+#~ msgid "join"
+#~ msgstr "anslut"
+
+#~ msgid "load"
+#~ msgstr "läs in"
+
+#~ msgid "loading video mode.."
+#~ msgstr "läser in videoläge..."
+
+#~ msgid "male"
+#~ msgstr "maskulin"
+
+#~ msgid "maps from sauerbraten"
+#~ msgstr "banor från sauerbraten"
+
+#~ msgid "maps not in the rotation"
+#~ msgstr "banor ej i rotering"
+
+#~ msgid "maps played recently"
+#~ msgstr "nyligen spelade banor"
+
+#~ msgid "mode specific"
+#~ msgstr "lägesspecifika"
+
+#~ msgid "model: "
+#~ msgstr "modell: "
+
+#~ msgid "models\t\t\t"
+#~ msgstr "modeller\t\t\t"
+
+#~ msgid "mutators"
+#~ msgstr "variationer"
+
+#~ msgid "name:  "
+#~ msgstr "namn:  "
+
+#~ msgid "network  "
+#~ msgstr "nätverk  "
+
+#~ msgid "neutral alpha omega kappa sigma"
+#~ msgstr "neutral alpha omega kappa sigma"
+
+#~ msgid "nickname "
+#~ msgstr "alias "
+
+#~ msgid "please select a mode and map to continue"
+#~ msgstr "välj läge och karta för att fortsätta"
+
+#~ msgid "port     "
+#~ msgstr "port"
+
+#~ msgid "press ^fs^fc%1^fS to open this menu at any time"
+#~ msgstr "tryck ^fs^fc%1^fS när som helst för att öppna denna meny"
+
+#~ msgid "protocol"
+#~ msgstr "protokoll"
+
+#~ msgid "reload"
+#~ msgstr "läs om"
+
+#, fuzzy
+#~ msgid "reloaddelay"
+#~ msgstr "läs om"
+
+#~ msgid "reset"
+#~ msgstr "återställ"
+
+#~ msgid "save"
+#~ msgstr "spara"
+
+#~ msgid "save for future use"
+#~ msgstr "spara för framtida användning"
+
+#~ msgid "saved identities"
+#~ msgstr "sparade identiteter"
+
+#~ msgid "screenshot"
+#~ msgstr "skärmbild"
+
+#~ msgid "select"
+#~ msgstr "välj"
+
+#~ msgid "show crosshair "
+#~ msgstr "visa sikte"
+
+#~ msgid "show radar "
+#~ msgstr "visa radar"
+
+#~ msgid "show sauer maps"
+#~ msgstr "visa sauer-banor"
+
+#~ msgid "sorry"
+#~ msgstr "förlåt"
+
+#~ msgid "sort: "
+#~ msgstr "sortera: "
+
+#~ msgid "sound channels"
+#~ msgstr "ljudkanaler"
+
+#~ msgid "sound frequency"
+#~ msgstr "ljudfrekvens"
+
+#, fuzzy
+#~ msgid "stick geom"
+#~ msgstr "träffa geom"
+
+#, fuzzy
+#~ msgid "stick plyr"
+#~ msgstr "fastnar"
+
+#~ msgid "this mutator is disabled in the current configuration"
+#~ msgstr "denna variation är inte tillgänglig med nuvarande konfiguration"
+
+#~ msgid "this mutator is implied in the current configuration"
+#~ msgstr "denna variation är given med nuvarande konfiguration"
+
+#~ msgid "toggle console"
+#~ msgstr "öppna konsol"
+
+#~ msgid "toggle editing"
+#~ msgstr "redigering på/av"
+
+#~ msgid "traced"
+#~ msgstr "markerad"
+
+#~ msgid "ui"
+#~ msgstr "interface"
+
+#~ msgid "update interval:"
+#~ msgstr "uppdateringsintervall:"
+
+#~ msgid "votes"
+#~ msgstr "voteringar"
