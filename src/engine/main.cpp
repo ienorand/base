@@ -867,7 +867,12 @@ int main(int argc, char **argv)
     clocktime = mktime(gmtime(&currenttime));
     clockoffset = currenttime-clocktime;
 
-    i18nmanager i18n(versionuname, copypath("data/locale", true));
+     // versionuname has not been initialized at this point...
+     #ifdef MEK
+     i18nmanager i18n("mekarcade", copypath("data/locale", true));
+     #else // FPS
+     i18nmanager i18n("redeclipse", copypath("data/locale", true));
+     #endif
 
     setlogfile(NULL);
     setlocations(true);
