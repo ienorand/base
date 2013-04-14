@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$DIR" || exit 1
+
+for i in */LC_MESSAGES/
+do
+	LC="$(echo "$i" | sed 's%\([^/]*\).*%\1%')"
+	msgmerge -s -U "$LC"/LC_MESSAGES/redeclipse.po redeclipse.pot
+done
+cd "$OLDPWD"

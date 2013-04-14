@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$DIR" || exit 1
+
+# C++
+xgettext -d redeclipse -o redeclipse.pot -c/ --sort-by-file --from-code=UTF-8 -k_ -C -D ../ -f translate_cpp_files.txt
+
+# Cubescript; Shell seems to work the best
+xgettext -d redeclipse -o redeclipse.pot --add-comments --sort-by-file --from-code=UTF-8 -k_ -j -L Shell -D ../../data -f translate_cubescript_files.txt
+xgettext -d redeclipse -o redeclipse.pot --add-comments --sort-by-file --from-code=UTF-8 -k__ -j -L Shell -D ../../data -f translate_cubescript_files.txt
+xgettext -d redeclipse -o redeclipse.pot --sort-by-file --from-code=UTF-8 -k_ -j -L Perl -D ../../data -f translate_cubescript_files.txt
+xgettext -d redeclipse -o redeclipse.pot --sort-by-file --from-code=UTF-8 -k__ -j -L Perl -D ../../data -f translate_cubescript_files.txt
+xgettext -d redeclipse -o redeclipse.pot --sort-by-file --from-code=UTF-8 -k_ -j -L EmacsLisp -D ../../data -f translate_cubescript_files.txt
+xgettext -d redeclipse -o redeclipse.pot --sort-by-file --from-code=UTF-8 -k__ -j -L EmacsLisp -D ../../data -f translate_cubescript_files.txt
