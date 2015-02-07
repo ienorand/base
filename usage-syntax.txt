@@ -20,6 +20,13 @@
   - try to find a good name
     - otherwise use <value> as a generic name
 
+* value lists
+  - used for listable sets of 'values'
+  - enclosed in curly braces
+  - use equal signs and commas to delimit: value = description, if applicatble
+  - nest with normal parenthesis if needed
+  - no newline except at end
+
 * overview description
   - brief description of command
   - usually not mentioning <parameter>s literally
@@ -29,6 +36,7 @@
 * long description
   - longer description and clarification of command
   - can mention <parameter>s if relevant
+  - if there is only one parameter, describe it here
   - can use commas and semicolons for punctuation
   - may wrap over multiple lines
   - no newline except at end
@@ -37,45 +45,37 @@
   - used if you need to extend long description beyond a newline
   - end each item with newline
 
-* available-list
-  - can be used in long description or bullet-list or parameter description list
-  - lists available options
-  - not necessarily directly related to the parameter (unless it's in the parameter description list)
-  - enclosed by parenthesis
-    - use curly brackets for nested lists if need be
-  - starts with (available:
-
 * parameter description list
+  - used if the command has more than one parameter
   - starts with <parametername> - 
   - mention if optional
   - end each item with newline
-  * parameter value lists
-    - used if the parameter has a listable set of 'values' it accepts
-    - if superseding a parameter description, enclosed in curly brackets
-    - use equal signs and commas to delimit: value = description,
-    - no newline except at end
 
 * examples
   - starts with example: 
   - if an explanation follows the command, the command ends with a semicolon
 
-EXAMPLE:
+EXAMPLE 1:
 
-this is the overview description					<-- overview description
+make element mixes							<-- overview description
 
-	this is a longer description of the command that describes what	<-- long description
-	it does in more detail						<-'
+	create element mixes in some specific manner, the input can	<-- long description
+	conveneintly be a sum of $frob* vars {earth, air, water, fire}	<-' with a value list
+
+	example: commandname (+ $frobair $frobfire); makes airy fire	<-- example
+
+EXAMPLE 2:
+
+this is the overview description
+
+	this is a longer description which is longer
 
 	if you are in the menus, the command behaves one way		<-- bullet-list
 	if you are in the game, the command behaves this way		<-'
-	you can use frob vars as input (available: frob1, frob2)	<-'
 
-	<parameter> - does something {1 = effect 1, 2 = effect 2}	<-- parameter description list and parameter value list
+	<parameter> - does something {1 = effect 1, 2 = effect 2}	<-- parameter description list withvalue list
 	[<parameter>] - optionally does something			<-'
 
-	example: commandname 1 foo; makes something happen		<-- example list
+	example: commandname 1 foo; makes something happen		<-- examples
 	example: commandname 2 bar					<-'
-
-
-
 
