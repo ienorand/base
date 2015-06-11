@@ -219,3 +219,13 @@ system-uninstall-cube2font-docs:
 
 system-uninstall-cube2font: system-uninstall-cube2font-docs
 	@rm -fv $(bindir)/bin/cube2font
+
+user-setup:
+	sed -e 's,Name=Red Eclipse,Name=Red Eclipse (user setup),g' \
+		-e 's,Icon=@APPNAME@,Icon=$(CURDIR)/install/nix/$(appsrcname)_x128.png,g' \
+		-e 's,Exec=@APPNAME@,Exec=$(CURDIR)/../redeclipse.sh\nTerminal=true,g' \
+		install/nix/$(appsrcname).desktop.am > \
+		$$HOME/.local/share/applications/$(appname)_user.desktop
+
+user-uninstall-setup:
+	rm -f $$HOME/.local/share/applications/$(appname)_user.desktop
